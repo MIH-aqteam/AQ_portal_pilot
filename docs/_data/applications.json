@@ -1,0 +1,410 @@
+[
+ {
+  "id": "11",
+  "box": "AQ eReporting",
+  "name": "What is reported",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whatisreported"
+ },
+ {
+  "id": "12",
+  "box": "AQ eReporting",
+  "name": "When is it reported",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whenisitreported"
+ },
+ {
+  "id": "13",
+  "box": "AQ eReporting",
+  "name": "What types of stations are used",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whattypeofstations"
+ },
+ {
+  "id": "14",
+  "box": "AQ eReporting",
+  "name": "Which pollutants are measured",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whichpollutantsaremeasured"
+ },
+ {
+  "id": "15",
+  "box": "AQ eReporting",
+  "name": "How is air pollution measured",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Howisairpollutionmeasured"
+ },
+ {
+  "id": "16",
+  "box": "AQ eReporting",
+  "name": "How many stations are measuring and where",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Howmanystationsaremeasuring"
+ },
+ {
+  "id": "17",
+  "box": "AQ eReporting",
+  "name": "Evolution of AQ Reporting over the years",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQReportingHistory/Dashboard1"
+ },
+ {
+  "id": "21",
+  "box": "Data flows monitors",
+  "name": "Monitor all data flows except E2a",
+  "discontinued": false,
+  "previously": "Reporter's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/SimplifiedMonitoringDashboard/MonitoringDashboard?%3Aembed=y&%3AisGuestRedirectFromVizportal=y"
+ },
+ {
+  "id": "22",
+  "box": "Data flows monitors",
+  "name": "Aggregations and continuity on E1a",
+  "discontinued": false,
+  "previously": "Reporter's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/Aggregationsandcontinuity/Thesummarydashboard"
+ },
+ {
+  "id": "27",
+  "box": "Data flows monitors",
+  "name": "Aggregations explorer",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/Aggregationexplorer/Dashboardaggregationstatus"
+ },
+ {
+  "id": "26",
+  "box": "Data flows monitors",
+  "name": "UTD Submission Monitoring Dashboards",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AirQualityMonitoringDashboard/Home"
+ },
+ {
+  "id": "25",
+  "box": "Data flows monitors",
+  "name": "Monitor UTD (details on processing)",
+  "discontinued": false,
+  "previously": "Reporter's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/UTD_monitoring_beta_CountryByWeb09032021/SelectCountry"
+ },
+ {
+  "id": "31",
+  "box": "Data tables",
+  "name": "Data flows B and preliminary B - zones",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityZones/index.html"
+ },
+ {
+  "id": "32",
+  "box": "Data tables",
+  "name": "Data flows C and preliminary C - assessment regime",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimes/index.html"
+ },
+ {
+  "id": "33",
+  "box": "Data tables",
+  "name": "Data flows C and preliminary C - assessment regimes - methods",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimesMethods/index.html"
+ },
+ {
+  "id": "34",
+  "box": "Data tables",
+  "name": "Data flow D - measurement",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityMeasurements/index.html"
+ },
+ {
+  "id": "35",
+  "box": "Data tables",
+  "name": "Data flows D1b/E1b - models",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.Models"
+ },
+ {
+  "id": "36",
+  "box": "Data tables",
+  "name": "Statistics based on data flow E1a - statistics table",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"
+ },
+ {
+  "id": "37",
+  "box": "Data tables",
+  "name": "Data flow G - attainment",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityAttainments/index.html"
+ },
+ {
+  "id": "38",
+  "box": "Data tables",
+  "name": "Data flow G - attainment - methods",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.AttainmentMethods"
+ },
+ {
+  "id": "39",
+  "box": "Data tables",
+  "name": "Data flow H - air quality plan",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityPlans/index.html"
+ },
+ {
+  "id": "3a",
+  "box": "Data tables",
+  "name": "Data flow I - source apportionment",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualitySourceApportionment/index.html"
+ },
+ {
+  "id": "3b",
+  "box": "Data tables",
+  "name": "Data flow J - scenarios",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityScenarios/index.html"
+ },
+ {
+  "id": "3c",
+  "box": "Data tables",
+  "name": "Data flow K - measures",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityMeasures/index.html"
+ },
+ {
+  "id": "41",
+  "box": "Data tables",
+  "name": "Airbase (2000-2012) - discontinued",
+  "discontinued": true,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/map/fme/AirQualityExportAirBase.htm"
+ },
+ {
+  "id": "42",
+  "box": "Data tables",
+  "name": "E1a (from 2013) - discontinued",
+  "discontinued": true,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm"
+ },
+ {
+  "id": "43",
+  "box": "Data tables",
+  "name": "E2a (current year) - discontinued",
+  "discontinued": true,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/map/fme/AirQualityUTDExport.htm"
+ },
+ {
+  "id": "44",
+  "box": "Data tables",
+  "name": "Zone geometries",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/map/FME/AQZones/"
+ },
+ {
+  "id": "45",
+  "box": "Data tables",
+  "name": "DiscoData",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discodata.eea.europa.eu/"
+ },
+ {
+  "id": "51",
+  "box": "Air quality now",
+  "name": "Up-To-Date viewer (UTD)",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/Map/UTDViewer/UTDViewer/"
+ },
+ {
+  "id": "52",
+  "box": "Air quality now",
+  "name": "Air Quality Index",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://airindex.eea.europa.eu/AQI/index.html"
+ },
+ {
+  "id": "61",
+  "box": "Data analysis and stats",
+  "name": "Statistics - country level",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Countrydashboard"
+ },
+ {
+  "id": "62",
+  "box": "Data analysis and stats",
+  "name": "Statistics - city level",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Citydashboard"
+ },
+ {
+  "id": "63",
+  "box": "Data analysis and stats",
+  "name": "Statistics - station level",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Stationdashboard"
+ },
+ {
+  "id": "64",
+  "box": "Data analysis and stats",
+  "name": "Daily-weekly-monthly data",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/data_viewer_ng/Home"
+ },
+ {
+  "id": "65",
+  "box": "Data analysis and stats",
+  "name": "General statistical viewer",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/statistical_ng/General"
+ },
+ {
+  "id": "66",
+  "box": "Data analysis and stats",
+  "name": "Correlation tool",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/correlation_tool_ng/Compareyears"
+ },
+ {
+  "id": "68",
+  "box": "Data analysis and stats",
+  "name": "Distance to target",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/DistanceToTarget/Dashboarddistancetotarget"
+ },
+ {
+  "id": "67",
+  "box": "Data analysis and stats",
+  "name": "Modelling results - maps",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/AirQualityModellingViewer/"
+ },
+ {
+  "id": "71a",
+  "box": "Focus on cities",
+  "name": "Monthly statistics in cities",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.cities.MonthlyAirQualityStatisticsInCities"
+ },
+ {
+  "id": "71b",
+  "box": "Focus on cities",
+  "name": "Annual average in urban areas",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.csi4.AirQualityInCountryUrbanAreas"
+ },
+ {
+  "id": "72",
+  "box": "Focus on cities",
+  "name": "City ranking",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/City_AQ_Viewer_2023/EuropeanCityRanking"
+ },
+ {
+  "id": "73",
+  "box": "Focus on cities",
+  "name": "City population exposed to air pollution",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.csi4.ExposureSummary"
+ },
+ {
+  "id": "80",
+  "box": "Compliance status",
+  "name": "Attainment map viewer",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://maps.eea.europa.eu/wab/AttainmentViewer/"
+ },
+ {
+  "id": "81",
+  "box": "Compliance status",
+  "name": "Attainment summary",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://tableau-public.discomap.eea.europa.eu/views/attainment_summary_ng/Numberofzones"
+ },
+ {
+  "id": "83",
+  "box": "Compliance status",
+  "name": "B/C/pC/E1a/E1b/E2a - Assessment regimes - levels",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.complanalysis.AssessmentRegimeLevels"
+ },
+ {
+  "id": "84",
+  "box": "Compliance status",
+  "name": "G/H - compliance & plans",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityExceedingGroupsAndPlans/index.html#"
+ },
+ {
+  "id": "85",
+  "box": "Compliance status",
+  "name": "G/K - compliance & measures",
+  "discontinued": false,
+  "previously": "User's corner",
+  "url": "https://discomap.eea.europa.eu/App/AirQualityExceedingGroupsAndMeasures/index.html#"
+ },
+ {
+  "id": "91",
+  "box": "Impact on health",
+  "name": "Health risk assessment - Country level",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.hra.countries_sel"
+ },
+ {
+  "id": "92",
+  "box": "Impact on health",
+  "name": "Health risk assessment - NUTS 3 level",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.hra.nuts3_sel"
+ },
+ {
+  "id": "93",
+  "box": "Impact on health",
+  "name": "Health risk assessment - City level",
+  "discontinued": false,
+  "previously": "",
+  "url": "https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.hra.cities_sel"
+ }
+]

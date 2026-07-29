@@ -13,7 +13,15 @@ extensions = [
 source_suffix = {".md": "markdown"}
 master_doc = "index"
 
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+exclude_patterns = [
+    "_build", "Thumbs.db", ".DS_Store",
+    # File-sync clients (iCloud Drive, OneDrive, Dropbox) leave "name 2.md"
+    # copies behind when the exporter rewrites docs/pages and docs/news. Each
+    # copy would otherwise be picked up as a real document and fail the -W
+    # build as an orphan. The exporter deletes them too, but it cannot catch
+    # copies the sync client writes after it has finished.
+    "**/* [0-9].md",
+]
 
 # The export contains bare URLs in tables that read better as live links, and
 # the portal's own headings need anchors so cross-page links keep working.

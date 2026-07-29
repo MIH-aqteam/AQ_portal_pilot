@@ -1,0 +1,118 @@
+# Viewers and dashboards
+
+The 51 interactive viewers, dashboards and data tables that the European Air Quality Portal links to, grouped as the portal groups them. Each one opens in a new tab.
+
+```{note}
+These applications are hosted by the EEA on Tableau Public, discomap and related services — they are not part of this documentation. The thumbnails are screenshots taken when this page was generated, so the live application may look different.
+```
+
+```{warning}
+No thumbnail for E1a (from 2013) - discontinued (42), E2a (current year) - discontinued (43) — the portal's link returns 404 and the application appears to be gone.
+```
+
+## AQ eReporting
+
+7 applications — see [AQ eReporting](../pages/aq-ereporting.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whatisreported"><span class="app-card-shot"><img src="../_static/thumbnails/11.jpg" alt="Screenshot of What is reported" loading="lazy"></span><span class="app-card-title">What is reported</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whenisitreported"><span class="app-card-shot"><img src="../_static/thumbnails/12.jpg" alt="Screenshot of When is it reported" loading="lazy"></span><span class="app-card-title">When is it reported</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whattypeofstations"><span class="app-card-shot"><img src="../_static/thumbnails/13.jpg" alt="Screenshot of What types of stations are used" loading="lazy"></span><span class="app-card-title">What types of stations are used</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whichpollutantsaremeasured"><span class="app-card-shot"><img src="../_static/thumbnails/14.jpg" alt="Screenshot of Which pollutants are measured" loading="lazy"></span><span class="app-card-title">Which pollutants are measured</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Howisairpollutionmeasured"><span class="app-card-shot"><img src="../_static/thumbnails/15.jpg" alt="Screenshot of How is air pollution measured" loading="lazy"></span><span class="app-card-title">How is air pollution measured</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Howmanystationsaremeasuring"><span class="app-card-shot"><img src="../_static/thumbnails/16.jpg" alt="Screenshot of How many stations are measuring and where" loading="lazy"></span><span class="app-card-title">How many stations are measuring and where</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQReportingHistory/Dashboard1"><span class="app-card-shot"><img src="../_static/thumbnails/17.jpg" alt="Screenshot of Evolution of AQ Reporting over the years" loading="lazy"></span><span class="app-card-title">Evolution of AQ Reporting over the years</span></a>
+</div>
+
+## Data flows monitors
+
+5 applications — see [Data flows monitors](../pages/data-flows-monitors.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/SimplifiedMonitoringDashboard/MonitoringDashboard?%3Aembed=y&amp;%3AisGuestRedirectFromVizportal=y"><span class="app-card-shot"><img src="../_static/thumbnails/21.jpg" alt="Screenshot of Monitor all data flows except E2a" loading="lazy"></span><span class="app-card-title">Monitor all data flows except E2a</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/Aggregationsandcontinuity/Thesummarydashboard"><span class="app-card-shot"><img src="../_static/thumbnails/22.jpg" alt="Screenshot of Aggregations and continuity on E1a" loading="lazy"></span><span class="app-card-title">Aggregations and continuity on E1a</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/Aggregationexplorer/Dashboardaggregationstatus"><span class="app-card-shot"><img src="../_static/thumbnails/27.jpg" alt="Screenshot of Aggregations explorer" loading="lazy"></span><span class="app-card-title">Aggregations explorer</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AirQualityMonitoringDashboard/Home"><span class="app-card-shot"><img src="../_static/thumbnails/26.jpg" alt="Screenshot of UTD Submission Monitoring Dashboards" loading="lazy"></span><span class="app-card-title">UTD Submission Monitoring Dashboards</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/UTD_monitoring_beta_CountryByWeb09032021/SelectCountry"><span class="app-card-shot"><img src="../_static/thumbnails/25.jpg" alt="Screenshot of Monitor UTD (details on processing)" loading="lazy"></span><span class="app-card-title">Monitor UTD (details on processing)</span></a>
+</div>
+
+## Data tables
+
+17 applications — see [Data tables](../pages/data-tables.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityZones/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/31.jpg" alt="Screenshot of Data flows B and preliminary B - zones" loading="lazy"></span><span class="app-card-title">Data flows B and preliminary B - zones</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimes/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/32.jpg" alt="Screenshot of Data flows C and preliminary C - assessment regime" loading="lazy"></span><span class="app-card-title">Data flows C and preliminary C - assessment regime</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimesMethods/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/33.jpg" alt="Screenshot of Data flows C and preliminary C - assessment regimes - methods" loading="lazy"></span><span class="app-card-title">Data flows C and preliminary C - assessment regimes - methods</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityMeasurements/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/34.jpg" alt="Screenshot of Data flow D - measurement" loading="lazy"></span><span class="app-card-title">Data flow D - measurement</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.Models"><span class="app-card-shot"><img src="../_static/thumbnails/35.jpg" alt="Screenshot of Data flows D1b/E1b - models" loading="lazy"></span><span class="app-card-title">Data flows D1b/E1b - models</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/36.jpg" alt="Screenshot of Statistics based on data flow E1a - statistics table" loading="lazy"></span><span class="app-card-title">Statistics based on data flow E1a - statistics table</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityAttainments/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/37.jpg" alt="Screenshot of Data flow G - attainment" loading="lazy"></span><span class="app-card-title">Data flow G - attainment</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.AttainmentMethods"><span class="app-card-shot"><img src="../_static/thumbnails/38.jpg" alt="Screenshot of Data flow G - attainment - methods" loading="lazy"></span><span class="app-card-title">Data flow G - attainment - methods</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityPlans/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/39.jpg" alt="Screenshot of Data flow H - air quality plan" loading="lazy"></span><span class="app-card-title">Data flow H - air quality plan</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualitySourceApportionment/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/3a.jpg" alt="Screenshot of Data flow I - source apportionment" loading="lazy"></span><span class="app-card-title">Data flow I - source apportionment</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityScenarios/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/3b.jpg" alt="Screenshot of Data flow J - scenarios" loading="lazy"></span><span class="app-card-title">Data flow J - scenarios</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityMeasures/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/3c.jpg" alt="Screenshot of Data flow K - measures" loading="lazy"></span><span class="app-card-title">Data flow K - measures</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/map/fme/AirQualityExportAirBase.htm"><span class="app-card-shot"><img src="../_static/thumbnails/41.jpg" alt="Screenshot of Airbase (2000-2012) - discontinued" loading="lazy"></span><span class="app-card-title">Airbase (2000-2012) - discontinued<span class="app-card-badge">discontinued</span></span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm"><span class="app-card-shot"><span class="app-card-missing">Not available</span></span><span class="app-card-title">E1a (from 2013) - discontinued<span class="app-card-badge">discontinued</span></span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/map/fme/AirQualityUTDExport.htm"><span class="app-card-shot"><span class="app-card-missing">Not available</span></span><span class="app-card-title">E2a (current year) - discontinued<span class="app-card-badge">discontinued</span></span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/map/FME/AQZones/"><span class="app-card-shot"><img src="../_static/thumbnails/44.jpg" alt="Screenshot of Zone geometries" loading="lazy"></span><span class="app-card-title">Zone geometries</span></a>
+<a class="app-card" href="https://discodata.eea.europa.eu/"><span class="app-card-shot"><img src="../_static/thumbnails/45.jpg" alt="Screenshot of DiscoData" loading="lazy"></span><span class="app-card-title">DiscoData</span></a>
+</div>
+
+## Air quality now
+
+2 applications — see [Air quality now](../pages/air-quality-now.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://discomap.eea.europa.eu/Map/UTDViewer/UTDViewer/"><span class="app-card-shot"><img src="../_static/thumbnails/51.jpg" alt="Screenshot of Up-To-Date viewer (UTD)" loading="lazy"></span><span class="app-card-title">Up-To-Date viewer (UTD)</span></a>
+<a class="app-card" href="https://airindex.eea.europa.eu/AQI/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/52.jpg" alt="Screenshot of Air Quality Index" loading="lazy"></span><span class="app-card-title">Air Quality Index</span></a>
+</div>
+
+## Data analysis and stats
+
+8 applications — see [Data analysis and stats](../pages/data-analysis-and-stats.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Countrydashboard"><span class="app-card-shot"><img src="../_static/thumbnails/61.jpg" alt="Screenshot of Statistics - country level" loading="lazy"></span><span class="app-card-title">Statistics - country level</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Citydashboard"><span class="app-card-shot"><img src="../_static/thumbnails/62.jpg" alt="Screenshot of Statistics - city level" loading="lazy"></span><span class="app-card-title">Statistics - city level</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Stationdashboard"><span class="app-card-shot"><img src="../_static/thumbnails/63.jpg" alt="Screenshot of Statistics - station level" loading="lazy"></span><span class="app-card-title">Statistics - station level</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/data_viewer_ng/Home"><span class="app-card-shot"><img src="../_static/thumbnails/64.jpg" alt="Screenshot of Daily-weekly-monthly data" loading="lazy"></span><span class="app-card-title">Daily-weekly-monthly data</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/statistical_ng/General"><span class="app-card-shot"><img src="../_static/thumbnails/65.jpg" alt="Screenshot of General statistical viewer" loading="lazy"></span><span class="app-card-title">General statistical viewer</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/correlation_tool_ng/Compareyears"><span class="app-card-shot"><img src="../_static/thumbnails/66.jpg" alt="Screenshot of Correlation tool" loading="lazy"></span><span class="app-card-title">Correlation tool</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/DistanceToTarget/Dashboarddistancetotarget"><span class="app-card-shot"><img src="../_static/thumbnails/68.jpg" alt="Screenshot of Distance to target" loading="lazy"></span><span class="app-card-title">Distance to target</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/AirQualityModellingViewer/"><span class="app-card-shot"><img src="../_static/thumbnails/67.jpg" alt="Screenshot of Modelling results - maps" loading="lazy"></span><span class="app-card-title">Modelling results - maps</span></a>
+</div>
+
+## Focus on cities
+
+4 applications — see [Focus on cities](../pages/focus-on-cities.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.cities.MonthlyAirQualityStatisticsInCities"><span class="app-card-shot"><img src="../_static/thumbnails/71a.jpg" alt="Screenshot of Monthly statistics in cities" loading="lazy"></span><span class="app-card-title">Monthly statistics in cities</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.csi4.AirQualityInCountryUrbanAreas"><span class="app-card-shot"><img src="../_static/thumbnails/71b.jpg" alt="Screenshot of Annual average in urban areas" loading="lazy"></span><span class="app-card-title">Annual average in urban areas</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/City_AQ_Viewer_2023/EuropeanCityRanking"><span class="app-card-shot"><img src="../_static/thumbnails/72.jpg" alt="Screenshot of City ranking" loading="lazy"></span><span class="app-card-title">City ranking</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.csi4.ExposureSummary"><span class="app-card-shot"><img src="../_static/thumbnails/73.jpg" alt="Screenshot of City population exposed to air pollution" loading="lazy"></span><span class="app-card-title">City population exposed to air pollution</span></a>
+</div>
+
+## Compliance status
+
+5 applications — see [Compliance status](../pages/compliance-status.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://maps.eea.europa.eu/wab/AttainmentViewer/"><span class="app-card-shot"><img src="../_static/thumbnails/80.jpg" alt="Screenshot of Attainment map viewer" loading="lazy"></span><span class="app-card-title">Attainment map viewer</span></a>
+<a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/attainment_summary_ng/Numberofzones"><span class="app-card-shot"><img src="../_static/thumbnails/81.jpg" alt="Screenshot of Attainment summary" loading="lazy"></span><span class="app-card-title">Attainment summary</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.complanalysis.AssessmentRegimeLevels"><span class="app-card-shot"><img src="../_static/thumbnails/83.jpg" alt="Screenshot of B/C/pC/E1a/E1b/E2a - Assessment regimes - levels" loading="lazy"></span><span class="app-card-title">B/C/pC/E1a/E1b/E2a - Assessment regimes - levels</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityExceedingGroupsAndPlans/index.html#"><span class="app-card-shot"><img src="../_static/thumbnails/84.jpg" alt="Screenshot of G/H - compliance &amp; plans" loading="lazy"></span><span class="app-card-title">G/H - compliance &amp; plans</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityExceedingGroupsAndMeasures/index.html#"><span class="app-card-shot"><img src="../_static/thumbnails/85.jpg" alt="Screenshot of G/K - compliance &amp; measures" loading="lazy"></span><span class="app-card-title">G/K - compliance &amp; measures</span></a>
+</div>
+
+## Impact on health
+
+3 applications — see [Impact on health](../pages/impact-on-health.md) for the portal's description.
+
+<div class="app-grid">
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.hra.countries_sel"><span class="app-card-shot"><img src="../_static/thumbnails/91.jpg" alt="Screenshot of Health risk assessment - Country level" loading="lazy"></span><span class="app-card-title">Health risk assessment - Country level</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.hra.nuts3_sel"><span class="app-card-shot"><img src="../_static/thumbnails/92.jpg" alt="Screenshot of Health risk assessment - NUTS 3 level" loading="lazy"></span><span class="app-card-title">Health risk assessment - NUTS 3 level</span></a>
+<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.hra.cities_sel"><span class="app-card-shot"><img src="../_static/thumbnails/93.jpg" alt="Screenshot of Health risk assessment - City level" loading="lazy"></span><span class="app-card-title">Health risk assessment - City level</span></a>
+</div>

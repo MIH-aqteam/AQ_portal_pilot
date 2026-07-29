@@ -1,6 +1,10 @@
 .venv/
 .cache/
 docs/_build/
+
+# Full-size screenshots and the throwaway Chrome profile used to take them.
+# Only the downscaled docs/_static/thumbnails/ are committed.
+build/
 __pycache__/
 *.pyc
 .DS_Store

@@ -559,26 +559,41 @@ def render_page(doc: Doc) -> str:
 
 # Order follows the portal's own top navigation; anything not listed is
 # appended alphabetically so new pages still show up.
-NAV_ORDER = [
-    "welcome-to-the-aq-portal",
-    "aq-ereporting",
-    "reporting-year-overview",
-    "reporters-package",
-    "data-flows-monitors",
-    "toolbox",
-    "download-data",
-    "data-tables",
-    "data-analysis-and-stats",
-    "direct-access-to-viewers-and-tablesviewers-direct-access",
-    "how-to-use-the-viewers",
-    "compliance-status",
-    "air-quality-now",
-    "aq-insights",
-    "focus-on-cities",
-    "impact-on-health",
-    "legal-aspects",
-    "meetings",
-    "links",
+VIEWERS_SECTION = "Viewers and dashboards"
+REFERENCE_SECTION = "Reference"
+
+# The sidebar. The seven pages under "Viewers and dashboards" are the ones the
+# portal's own catalogue groups its applications under, so each carries the
+# gallery for its group (scripts/build_gallery.py); "AQ eReporting" is the
+# eighth such page but reads as an introduction, so it sits in Getting started.
+SECTIONS: list[tuple[str, list[str]]] = [
+    ("Getting started", [
+        "welcome-to-the-aq-portal",
+        "aq-ereporting",
+        "reporting-year-overview",
+        "how-to-use-the-viewers",
+        "reporters-package",
+    ]),
+    (VIEWERS_SECTION, [
+        "data-flows-monitors",
+        "data-tables",
+        "air-quality-now",
+        "data-analysis-and-stats",
+        "focus-on-cities",
+        "compliance-status",
+        "impact-on-health",
+        "direct-access-to-viewers-and-tablesviewers-direct-access",
+    ]),
+    ("Data and downloads", [
+        "download-data",
+    ]),
+    (REFERENCE_SECTION, [
+        "toolbox",
+        "aq-insights",
+        "legal-aspects",
+        "meetings",
+        "links",
+    ]),
 ]
 
 # Scratch pages left in the CMS (a stray PDF embed and one loose sentence).
@@ -590,19 +605,51 @@ DRAFT_SLUGS = {"test", "testing"}
 REPLACED_BY_INDEX = {"news"}
 
 
-def write_indexes(out: Path, pages: list[Doc], posts: list[Doc]) -> None:
-    order = {slug: i for i, slug in enumerate(NAV_ORDER)}
-    pages = sorted(pages, key=lambda d: (order.get(d.slug, 999), d.title))
-    posts = sorted(posts, key=lambda d: d.date, reverse=True)
+SYNC_DUPLICATE_RE = re.compile(r" \d+(\.[^.]+)$")
 
-    (out / "pages" / "index.md").write_text(
-        "# Portal pages\n\n"
-        "The content pages of the European Air Quality Portal.\n\n"
-        "```{toctree}\n:maxdepth: 1\n\n"
-        + "\n".join(d.path_parts[1][:-3] for d in pages)
-        + "\n```\n",
-        encoding="utf-8",
-    )
+
+def purge_sync_duplicates(out: Path) -> list[str]:
+    """Delete the "name 2.md" copies a file-sync client leaves behind.
+
+    This project is typically checked out under a synced folder (iCloud Drive,
+    OneDrive, Dropbox). Each run deletes and rewrites the whole of pages/ and
+    news/, which races with the sync client and leaves stale numbered copies.
+    Sphinx then treats every copy as a real document and the -W build fails on
+    "document isn't included in any toctree".
+
+    Only files whose un-numbered original was just written are removed, so a
+    genuine file that happens to end in a number is never touched.
+    """
+    removed = []
+    for folder in ("pages", "news"):
+        target = out / folder
+        if not target.is_dir():
+            continue
+        for path in target.iterdir():
+            if not SYNC_DUPLICATE_RE.search(path.name):
+                continue
+            original = path.with_name(SYNC_DUPLICATE_RE.sub(r"\1", path.name))
+            if original.exists():
+                path.unlink()
+                removed.append(f"{folder}/{path.name}")
+    return removed
+
+
+def toctree(caption: str, entries: list[str], maxdepth: int = 1) -> str:
+    body = "\n".join(entries)
+    return (f"```{{toctree}}\n:maxdepth: {maxdepth}\n:caption: {caption}\n\n"
+            f"{body}\n```\n")
+
+
+def write_indexes(out: Path, pages: list[Doc], posts: list[Doc]) -> None:
+    """Write the news index and the sectioned root toctree.
+
+    The portal itself is flat — every page is a direct child of the front page
+    — so the sidebar follows the grouping the portal uses in its own catalogue
+    of viewers (see SECTIONS) rather than a hierarchy scraped from the site.
+    """
+    posts = sorted(posts, key=lambda d: d.date, reverse=True)
+    have = {d.slug for d in pages}
 
     news_lines = ["# News", "", "News items published on the portal, most recent first.", ""]
     news_lines += ["```{toctree}", ":maxdepth: 1", ""]
@@ -610,19 +657,40 @@ def write_indexes(out: Path, pages: list[Doc], posts: list[Doc]) -> None:
     news_lines += ["```", ""]
     (out / "news" / "index.md").write_text("\n".join(news_lines), encoding="utf-8")
 
+    # A page listed in no section would be an orphan and fail the -W build,
+    # so anything new upstream is swept into Reference.
+    placed = {slug for _, slugs in SECTIONS for slug in slugs if slug in have}
+    leftovers = sorted(have - placed)
+
+    blocks = []
+    for caption, slugs in SECTIONS:
+        entries = [f"pages/{s}" for s in slugs if s in have]
+        if caption == VIEWERS_SECTION:
+            entries.insert(0, "viewers/index")
+        if caption == REFERENCE_SECTION:
+            entries += [f"pages/{s}" for s in leftovers]
+        if entries:
+            blocks.append(toctree(caption, entries))
+    blocks.append(toctree("News", ["news/index"]))
+
     (out / "index.md").write_text(
         "# European Air Quality Portal\n\n"
         "A Markdown export of the [European Air Quality Portal]"
         f"({SITE}), the data and information gateway on air quality in Europe, "
         "rendered as documentation with Sphinx.\n\n"
+        "Start with [Welcome to the AQ Portal](pages/welcome-to-the-aq-portal.md) "
+        "for what the portal is, or go straight to the "
+        "[viewers and dashboards](viewers/index.md) for the interactive "
+        "applications.\n\n"
         "Interactive dashboards and embedded PDF viewers cannot be reproduced in "
         "static documentation; wherever the original page embedded one, this "
         "export links to it instead. Links to other sites open in a new tab.\n\n"
-        "```{toctree}\n:maxdepth: 2\n:caption: Contents\n\n"
-        "pages/index\nnews/index\n```\n\n"
-        "## Indices\n\n- {ref}`genindex`\n- {ref}`search`\n",
+        + "\n".join(blocks) +
+        "\n## Indices\n\n- {ref}`genindex`\n- {ref}`search`\n",
         encoding="utf-8",
     )
+    if leftovers:
+        print(f"  note: {', '.join(leftovers)} not in SECTIONS; filed under Reference")
 
 
 # --------------------------------------------------------------------------
@@ -694,6 +762,11 @@ def build(out: Path, cache: Path, offline: bool, include_drafts: bool) -> int:
 
     write_indexes(out, [d for d in docs if d.kind == "page"],
                   [d for d in docs if d.kind == "post"])
+
+    duplicates = purge_sync_duplicates(out)
+    if duplicates:
+        print(f"\nRemoved {len(duplicates)} file-sync duplicate(s) "
+              f"(e.g. {duplicates[0]})")
 
     print(f"\nWrote {len(docs)} Markdown files to {out}/")
     if skipped:
