@@ -1,0 +1,7 @@
+# How to use the viewers
+
+*Source: [https://aqportal.discomap.eea.europa.eu/how-to-use-the-viewers/](https://aqportal.discomap.eea.europa.eu/how-to-use-the-viewers/)*
+
+Many interactive tools are Tableau viewers. Others are not but they follow the same basic principles.
+
+Some remarks and tips on how to use and to get the most information out of Tableau viewers.

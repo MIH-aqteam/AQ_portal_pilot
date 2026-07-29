@@ -1,0 +1,34 @@
+/*
+ * Tweaks for content exported from the Air Quality Portal.
+ */
+
+/* The "Direct access to viewers and tables" page carries a five-column table
+ * of long Tableau URLs. Let it scroll sideways rather than clip, and let the
+ * URLs wrap so the table stays readable at narrow widths. */
+article table.docutils {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+article table.docutils td,
+article table.docutils th {
+  vertical-align: top;
+}
+
+article table.docutils td a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* The "Source:" line under each page title is metadata, not body text. */
+article > section > p:first-of-type em {
+  font-size: 0.875em;
+  opacity: 0.75;
+}
+
+/* Notes that stand in for an embedded viewer. */
+article .admonition.note {
+  font-size: 0.95em;
+}
