@@ -1,46 +1,86 @@
 # Download data
 
-*Source: [https://aqportal.discomap.eea.europa.eu/download-data/](https://aqportal.discomap.eea.europa.eu/download-data/)*
+These services provide access to air quality datasets, reference information and historical archives published by the European Environment Agency (EEA).
 
-Below some services which allow to download air quality data from Airbase (before 2013 – before AQ eReporting), E1a and E2a from AQ eReporting.
+## Current download services
 
-For the other data flows as well as statistics, you can also download data and information from the viewers which are labelled under [Data tables](data-tables.md).
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
 
-**Air Quality Download service**
+* - ### Air Quality Download Service
 
-Download Service provides access to air quality measurements time series. You can filter and download the verified data (E1a) reported by countries by 30 September each year for the previous year and the most recent unverified data transmitted continuously (Up To Date/UTD/E2a)
+    Download validated annual (E1a) air quality measurements together with the latest provisional (E2a/Up-To-Date) observations. The service allows filtering by country, station, pollutant and reporting period before downloading the data.
 
-Direct link: <https://eeadmz1-downloads-webapp.azurewebsites.net/>
+    [**Open download service**](https://eeadmz1-downloads-webapp.azurewebsites.net/)
 
-**Airbase (2000 – 2012)** – to be discontinued from the end of 2024
+  - [![Air Quality Download Service](../_static/thumbnails/40.jpg)](https://eeadmz1-downloads-webapp.azurewebsites.net/)
 
-The Airbase download service covers historic data from the year 2000 to 2012 (both including). The download service is based on pre-prepared csv files and the service helps you to extract the list of files to be downloaded matching your search criteria based on our meta database.
+    *Click the image to open the download service.*
+```
 
-Direct link: <https://discomap.eea.europa.eu/map/fme/AirQualityExportAirBase.htm>
+## Reference datasets
 
-**E1a (from 2013****)** – to be discontinued from the end of 2024
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
 
-Data available in this download service comes from two dataflows: E1a and E2a. It is based on access to pre-prepared csv files and the service helps you to extract the list of files to be downloaded matching your search criteria.
+* - ### Zone geometries
 
-Direct link: <https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm>
+    Download the official geometries of the air quality zones reported by participating countries.
 
-**E2a (current year)** – to be discontinued from the end of 2024
+    [**Open download service**](https://discomap.eea.europa.eu/map/FME/AQZones/)
 
-This service allows to download E1a and E2a data for the current year.
+  - [![Zone geometries](../_static/thumbnails/44.jpg)](https://discomap.eea.europa.eu/map/FME/AQZones/)
 
-Direct link: <https://discomap.eea.europa.eu/map/fme/AirQualityUTDExport.htm>
+    *Click the image to open the download service.*
 
-**Zone geometries**
+* - ### DiscoData
 
-Zone geometries can be downloaded from the direct link: <https://discomap.eea.europa.eu/map/FME/AQZones/>
+    Access EEA public databases through an interactive SQL interface or retrieve data programmatically using the DiscoData API.
 
-**Discodata**
+    [**Open DiscoData**](https://discodata.eea.europa.eu/)
 
-Discodata is a public tool and service where anybody can access data published by the European Environment Agency (EEA). It offers two functionalities:
+  - [![DiscoData](../_static/thumbnails/45.jpg)](https://discodata.eea.europa.eu/)
 
-- A web application to inspect and query databases using SQL.
-- An API to get data from databases, using SQL queries, as JSON information.
+    *Click the image to open DiscoData.*
+```
 
-Direct link: <https://discodata.eea.europa.eu/>
+## Legacy download services
 
-**Warning**: this service must be accessed through its direct link.
+The following services are maintained for historical purposes and are planned to be discontinued.
+
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
+
+* - ### AirBase archive (2000–2012)
+
+    Download historical AirBase measurements covering the period 2000–2012.
+
+    [**Open legacy download service**](https://discomap.eea.europa.eu/map/fme/AirQualityExportAirBase.htm)
+
+  - [![AirBase archive](../_static/thumbnails/41.jpg)](https://discomap.eea.europa.eu/map/fme/AirQualityExportAirBase.htm)
+
+    *Click the image to open the legacy download service.*
+
+* - ### E1a archive (from 2013)
+
+    Download archived datasets previously distributed through the E1a download service.
+
+    [**Open legacy download service**](https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm)
+
+  - [![E1a archive](../_static/thumbnails/-.jpg)](https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm)
+
+    *Click the image to open the legacy download service.*
+
+* - ### E2a archive (current year)
+
+    Download archived provisional (E2a) datasets from the former download service.
+
+    [**Open legacy download service**](https://discomap.eea.europa.eu/map/fme/AirQualityUTDExport.htm)
+
+  - [![E2a archive](../_static/thumbnails/-)](https://discomap.eea.europa.eu/map/fme/AirQualityUTDExport.htm)
+
+    *Click the image to open the legacy download service.*
+```

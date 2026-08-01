@@ -7,6 +7,7 @@ release = "1.0"
 
 extensions = [
     "myst_parser",
+    "sphinx_design",
     "sphinx.ext.githubpages",  # emits .nojekyll so GitHub Pages serves _static/
 ]
 
@@ -31,10 +32,14 @@ myst_heading_anchors = 3
 html_theme = "furo"
 html_title = "European Air Quality Portal"
 html_static_path = ["_static"]
+html_logo = "_static/EEA-logo.png"
 
 # Every link that leaves these docs opens in a new tab, so the reader never
 # loses their place — this is how the embedded viewers behave on the portal.
-html_js_files = ["external-links.js"]
+html_js_files = [
+    "external-links.js",
+    "countdown.js",
+]
 html_css_files = ["custom.css"]
 
 # Set these once the repository has a real URL to enable furo's "edit this

@@ -80,6 +80,6 @@ Get access to simplified versions of the data monitor viewer, the statistical vi
 
 Get access to full version of the following viewers data monitor, verify statistics , statistical and compliance in one screen
 
-## [Direct access to viewers and tables](direct-access-to-viewers-and-tablesviewers-direct-access.md)
+## [Direct access to viewers and tables](direct-access-to-viewers-and-tables.md)
 
 Get direct access to all the viewers included in the AQ Portal

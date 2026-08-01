@@ -1,94 +1,186 @@
 # Data tables
 
-*Source: [https://aqportal.discomap.eea.europa.eu/data-tables/](https://aqportal.discomap.eea.europa.eu/data-tables/)*
+Use these applications to consult information reported through the different AQ e-Reporting data flows and the annual statistics calculated from validated air quality data.
 
-**Data flows B and preliminary B**
+## Data flow B — air quality zones
 
-Information on the Air Quality **Zones** reported within AQ e-Reporting.
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
 
-Direct link: <https://discomap.eea.europa.eu/App/AirQualityZones/index.html>
+* - ### Air quality zones
 
-**Data flows C and C preliminary**
+    Consult information on the air quality zones reported through data flow B and preliminary data flow B.
 
-Information on:
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityZones/index.html)
 
-- the Air Quality Assessment **Regimes** – direct link: <https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimes/index.html>
-- the Air Quality Assessment **Regimes Methods** – direct link: <https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimesMethods/index.html>
+  - [![Air quality zones](../_static/thumbnails/31.jpg)](https://discomap.eea.europa.eu/App/AirQualityZones/index.html)
 
-reported within AQ e-Reporting.
+    *Click the image to open the interactive viewer.*
+```
 
-**Data** **flows D and D1b/E1b**
+## Data flow C — assessment regimes
 
-Information on
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
 
-- the Air Quality **Measurements – stations** (data flow D) – direct link: <https://discomap.eea.europa.eu/App/AirQualityMeasurements/index.html>
-- the Air Quality **Models and Objective Estimations** (data flows D1b/E1b) – direct link: <https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.Models>
+* - ### Air quality assessment regimes
 
-reported within AQ e-Reporting.
+    Consult information on the assessment regimes reported through data flow C and preliminary data flow C.
 
-Statistics based on **data flow E1a**
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimes/index.html)
 
-The **annual statistics** calculated from air quality values originating both from AirBase and AQ e-Reporting (data flow E1a).
+  - [![Air quality assessment regimes](../_static/thumbnails/32.jpg)](https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimes/index.html)
 
-Direct link:  <https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html>
+    *Click the image to open the interactive viewer.*
 
-**Data flow G**
+* - ### Assessment regime methods
 
-Information on
+    Consult information on the methods associated with air quality assessment regimes reported through data flow C and preliminary data flow C.
 
-- Air Quality **Attainment status** – direct link: <https://discomap.eea.europa.eu/App/AirQualityAttainments/index.html>
-- Air Quality **Assessment Methods** used for establishing Attainment status – direct link: <https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.AttainmentMethods>
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimesMethods/index.html)
 
-reported within AQ e-Reporting.
+  - [![Assessment regime methods](../_static/thumbnails/33.jpg)](https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimesMethods/index.html)
 
-**Data flow H**
+    *Click the image to open the interactive viewer.*
+```
 
-Information on the Air Quality **Plans** reported within AQ e-Reporting.
+## Data flows D, D1b and E1b — assessment methods
 
-Direct link: <https://discomap.eea.europa.eu/App/AirQualityPlans/index.html>
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
 
-**D****ata flow I**
+* - ### Measurement stations
 
-Information on the Air Quality **Source Apportionment** reported within AQ e-Reporting.
+    Consult information on air quality measurement stations reported through data flow D.
 
-Direct link: <https://discomap.eea.europa.eu/App/AirQualitySourceApportionment/index.html>
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityMeasurements/index.html)
 
-**Data flow J**
+  - [![Air quality measurement stations](../_static/thumbnails/34.jpg)](https://discomap.eea.europa.eu/App/AirQualityMeasurements/index.html)
 
-Information on the Air Quality **Scenarios** reported within AQ e-Reporting.
+    *Click the image to open the interactive viewer.*
 
-Direct link: <https://discomap.eea.europa.eu/App/AirQualityScenarios/index.html>
+* - ### Models and objective estimations
 
-**Data flow K**
+    Consult information on models and objective estimations reported through data flows D1b and E1b.
 
-Information on the Air Quality **Measures** reported within AQ e-Reporting.
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.Models)
 
-Direct link: <https://discomap.eea.europa.eu/App/AirQualityMeasures/index.html>
+  - [![Models and objective estimations](../_static/thumbnails/35.jpg)](https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.Models)
 
-<!-- gallery:start - generated by scripts/build_gallery.py, do not edit -->
+    *Click the image to open the interactive viewer.*
+```
 
-## Viewers in this section
+## Data flow E1a — annual statistics
 
-17 interactive applications. Each opens in a new tab; see [all viewers and dashboards](../viewers/index.md) for the full catalogue.
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
 
-<div class="app-grid">
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityZones/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/31.jpg" alt="Screenshot of Data flows B and preliminary B - zones" loading="lazy"></span><span class="app-card-title">Data flows B and preliminary B - zones</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimes/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/32.jpg" alt="Screenshot of Data flows C and preliminary C - assessment regime" loading="lazy"></span><span class="app-card-title">Data flows C and preliminary C - assessment regime</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityAssessmentRegimesMethods/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/33.jpg" alt="Screenshot of Data flows C and preliminary C - assessment regimes - methods" loading="lazy"></span><span class="app-card-title">Data flows C and preliminary C - assessment regimes - methods</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityMeasurements/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/34.jpg" alt="Screenshot of Data flow D - measurement" loading="lazy"></span><span class="app-card-title">Data flow D - measurement</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.Models"><span class="app-card-shot"><img src="../_static/thumbnails/35.jpg" alt="Screenshot of Data flows D1b/E1b - models" loading="lazy"></span><span class="app-card-title">Data flows D1b/E1b - models</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/36.jpg" alt="Screenshot of Statistics based on data flow E1a - statistics table" loading="lazy"></span><span class="app-card-title">Statistics based on data flow E1a - statistics table</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityAttainments/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/37.jpg" alt="Screenshot of Data flow G - attainment" loading="lazy"></span><span class="app-card-title">Data flow G - attainment</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.AttainmentMethods"><span class="app-card-shot"><img src="../_static/thumbnails/38.jpg" alt="Screenshot of Data flow G - attainment - methods" loading="lazy"></span><span class="app-card-title">Data flow G - attainment - methods</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityPlans/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/39.jpg" alt="Screenshot of Data flow H - air quality plan" loading="lazy"></span><span class="app-card-title">Data flow H - air quality plan</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualitySourceApportionment/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/3a.jpg" alt="Screenshot of Data flow I - source apportionment" loading="lazy"></span><span class="app-card-title">Data flow I - source apportionment</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityScenarios/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/3b.jpg" alt="Screenshot of Data flow J - scenarios" loading="lazy"></span><span class="app-card-title">Data flow J - scenarios</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/App/AirQualityMeasures/index.html"><span class="app-card-shot"><img src="../_static/thumbnails/3c.jpg" alt="Screenshot of Data flow K - measures" loading="lazy"></span><span class="app-card-title">Data flow K - measures</span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/map/fme/AirQualityExportAirBase.htm"><span class="app-card-shot"><img src="../_static/thumbnails/41.jpg" alt="Screenshot of Airbase (2000-2012) - discontinued" loading="lazy"></span><span class="app-card-title">Airbase (2000-2012) - discontinued<span class="app-card-badge">discontinued</span></span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/map/fme/AirQualityExport.htm"><span class="app-card-shot"><span class="app-card-missing">Not available</span></span><span class="app-card-title">E1a (from 2013) - discontinued<span class="app-card-badge">discontinued</span></span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/map/fme/AirQualityUTDExport.htm"><span class="app-card-shot"><span class="app-card-missing">Not available</span></span><span class="app-card-title">E2a (current year) - discontinued<span class="app-card-badge">discontinued</span></span></a>
-<a class="app-card" href="https://discomap.eea.europa.eu/map/FME/AQZones/"><span class="app-card-shot"><img src="../_static/thumbnails/44.jpg" alt="Screenshot of Zone geometries" loading="lazy"></span><span class="app-card-title">Zone geometries</span></a>
-<a class="app-card" href="https://discodata.eea.europa.eu/"><span class="app-card-shot"><img src="../_static/thumbnails/45.jpg" alt="Screenshot of DiscoData" loading="lazy"></span><span class="app-card-title">DiscoData</span></a>
-</div>
+* - ### Annual air quality statistics
 
-<!-- gallery:end -->
+    Consult annual statistics calculated from validated air quality measurements originating from AirBase and AQ e-Reporting data flow E1a.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html)
+
+  - [![Annual air quality statistics](../_static/thumbnails/36.jpg)](https://discomap.eea.europa.eu/App/AirQualityStatistics/index.html)
+
+    *Click the image to open the interactive viewer.*
+```
+
+## Data flow G — attainment
+
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
+
+* - ### Attainment status
+
+    Consult information on the attainment status reported through data flow G.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityAttainments/index.html)
+
+  - [![Air quality attainment status](../_static/thumbnails/37.jpg)](https://discomap.eea.europa.eu/App/AirQualityAttainments/index.html)
+
+    *Click the image to open the interactive viewer.*
+
+* - ### Attainment assessment methods
+
+    Consult information on the assessment methods used to establish attainment status and reported through data flow G.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.AttainmentMethods)
+
+  - [![Attainment assessment methods](../_static/thumbnails/38.jpg)](https://discomap.eea.europa.eu/App/AQViewer/index.html?fqn=Airquality_Dissem.b2g.AttainmentMethods)
+
+    *Click the image to open the interactive viewer.*
+```
+
+## Data flow H — air quality plans
+
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
+
+* - ### Air quality plans
+
+    Consult information on air quality plans reported through data flow H.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityPlans/index.html)
+
+  - [![Air quality plans](../_static/thumbnails/39.jpg)](https://discomap.eea.europa.eu/App/AirQualityPlans/index.html)
+
+    *Click the image to open the interactive viewer.*
+```
+
+## Data flow I — source apportionment
+
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
+
+* - ### Source apportionment
+
+    Consult information on air quality source apportionment reported through data flow I.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualitySourceApportionment/index.html)
+
+  - [![Air quality source apportionment](../_static/thumbnails/3a.jpg)](https://discomap.eea.europa.eu/App/AirQualitySourceApportionment/index.html)
+
+    *Click the image to open the interactive viewer.*
+```
+
+## Data flow J — scenarios
+
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
+
+* - ### Air quality scenarios
+
+    Consult information on air quality scenarios reported through data flow J.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityScenarios/index.html)
+
+  - [![Air quality scenarios](../_static/thumbnails/3b.jpg)](https://discomap.eea.europa.eu/App/AirQualityScenarios/index.html)
+
+    *Click the image to open the interactive viewer.*
+```
+
+## Data flow K — measures
+
+```{list-table}
+:widths: 60 40
+:class: viewer-list-table
+
+* - ### Air quality measures
+
+    Consult information on air quality measures reported through data flow K.
+
+    [**Open interactive viewer**](https://discomap.eea.europa.eu/App/AirQualityMeasures/index.html)
+
+  - [![Air quality measures](../_static/thumbnails/3c.jpg)](https://discomap.eea.europa.eu/App/AirQualityMeasures/index.html)
+
+    *Click the image to open the interactive viewer.*
+```

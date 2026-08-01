@@ -1,38 +1,42 @@
 # AQ eReporting
 
-*Source: [https://aqportal.discomap.eea.europa.eu/aq-ereporting/](https://aqportal.discomap.eea.europa.eu/aq-ereporting/)*
+Air Quality eReporting provides the framework through which European countries submit information on ambient air quality to the European Environment Agency (EEA). It covers monitoring networks, assessment methods, measured and modelled concentrations, compliance information, air quality plans and related documentation.
 
-The Air Quality e-Reporting has been established under Directive 2008/50/EC of the European Parliament and of the Council of 21 May 2008 on ambient air quality and cleaner air for Europe. It is in fact the continuation and extension of previous reciprocal exchange of data and information on air quality established by three previous european Decisions (75/441/EEC, 82/549/EEC and 97/101/EC). The reporting obligations also applies to Directive 2004/107/EC of the European Parliament and of the Council of 21 May 2008 of 15 December 2004 relating to arsenic, cadmium, mercury, nickel and polycyclic aromatic hydrocarbons in ambient air. These two Directives have been amended by Directive 2015/1480.
+## Legal basis
 
-In its Article 27, the Air Quality Directive 2008/150/EC requires that “Member States shall ensure that information on ambient air quality is made available to the Commission within the required timescale as determined by the implementing measures referred to in Article 28(2).“
+Air Quality eReporting was established under [Directive 2008/50/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0050) on ambient air quality and cleaner air for Europe. It continues and extends the reciprocal exchange of air quality information introduced under earlier European legislation.
 
-The Article 28(2) states that “*(the) Commission shall …determine the additional information to be made available by Member States pursuant to Article 27 as well as the timescales in which such information is to be communicated. The Commission shall also identify ways of streamlining the way data are reported and the reciprocal exchange of information and data from networks and individual stations measuring ambient air pollution within the Member States …*“.
+The reporting framework also supports the obligations established under [Directive 2004/107/EC](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004L0107), concerning arsenic, cadmium, mercury, nickel and polycyclic aromatic hydrocarbons in ambient air. Both directives were subsequently amended by [Commission Directive (EU) 2015/1480](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L1480).
 
-In other words, the principle of the Air Quality e-Reporting is established by the Directive 2008/50/EC while the technical and practical modalities are to be fixed in a subsequent legal instrument.
+Directive 2008/50/EC establishes the general obligation for Member States to make air quality information available to the European Commission. It also provides for implementing measures defining:
 
-This is the object of the Commission Implementing Decision 2011/850/EU (also known as the “IPR Decision”) of 12 December 2011 laying down rules for Directives 2004/107/EC and 2008/50/EC of the European Parliament and of the Council as regards the reciprocal exchange of information and reporting on ambient air quality.
+- the information to be reported;
+- the applicable reporting deadlines;
+- the formats and encoding rules to be used; and
+- arrangements for streamlining the exchange of information from air quality monitoring networks and stations.
 
-In practice the IPR Decision fixes the nature and content of data and information to be reported, the formats and encoding to be followed as well the reporting time schedules.
+These technical and practical arrangements were established through [Commission Implementing Decision 2011/850/EU](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011D0850), commonly known as the **IPR Decision**.
 
-What is reported?
+## How the reporting system works
 
-When is it reported?
+The IPR Decision defines the nature and content of the information to be submitted, together with the required data formats, encoding conventions and reporting schedules.
 
-What types of stations are used?
+In practice, Air Quality eReporting supports the exchange of information on:
 
-Which pollutants are measured?
+- air quality zones and assessment regimes;
+- monitoring stations and sampling points;
+- measurement and modelling methods;
+- pollutant concentrations;
+- compliance with legal objectives;
+- air quality plans, scenarios and measures; and
+- supporting technical documentation.
 
-How is air pollution measured?
+## Explore AQ eReporting
 
-How many stations are measuring and where?
-
-Evolution of AQ Reporting over the years
+The interactive applications below provide an introduction to the reporting system, including what is reported, when reporting takes place, which pollutants and monitoring stations are involved, and how the system has evolved over time.  
+Each opens in a new tab; see [all viewers and dashboards](../viewers/index.md) for the full catalogue.
 
 <!-- gallery:start - generated by scripts/build_gallery.py, do not edit -->
-
-## Viewers in this section
-
-7 interactive applications. Each opens in a new tab; see [all viewers and dashboards](../viewers/index.md) for the full catalogue.
 
 <div class="app-grid">
 <a class="app-card" href="https://tableau-public.discomap.eea.europa.eu/views/AQeRep_for_public_for_portal/Whatisreported"><span class="app-card-shot"><img src="../_static/thumbnails/11.jpg" alt="Screenshot of What is reported" loading="lazy"></span><span class="app-card-title">What is reported</span></a>

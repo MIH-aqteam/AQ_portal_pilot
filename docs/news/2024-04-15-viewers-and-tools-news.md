@@ -9,4 +9,4 @@
 
 Direct link: <https://tableau-public.discomap.eea.europa.eu/views/Aggregationexplorer/Dashboardaggregationstatus/>.
 
-3. The [Toolbox](../pages/toolbox.md) now includes a document titled “**How to follow and check the submissions**“. This document explains how and where to verify the completion of the submission process and subsequent steps.
+3. The [Toolbox](../pages/tools-and-guidance.md) now includes a document titled “**How to follow and check the submissions**“. This document explains how and where to verify the completion of the submission process and subsequent steps.

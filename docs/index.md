@@ -1,27 +1,59 @@
 # European Air Quality Portal
 
-A Markdown export of the [European Air Quality Portal](https://aqportal.discomap.eea.europa.eu), the data and information gateway on air quality in Europe, rendered as documentation with Sphinx.
+<p class="portal-subtitle">Supporting European air quality reporting, assessment and collaboration</p>
 
-Start with [Welcome to the AQ Portal](pages/welcome-to-the-aq-portal.md) for what the portal is, or go straight to the [viewers and dashboards](viewers/index.md) for the interactive applications.
+```{image} _static/images/AQPortal_banner.png
+:alt: European Air Quality Portal
+:width: 100%
+:class: portal-banner-image
+```
 
-Interactive dashboards and embedded PDF viewers cannot be reproduced in static documentation; wherever the original page embedded one, this export links to it instead. Links to other sites open in a new tab.
+<br>
+
+<h2 class="welcome-title">Welcome to the European Air Quality Portal!</h2>
+
+*The **European Air Quality (AQ) Portal** is a digital platform supporting the Air Quality eReporting system, an initiative established by the [European Commission](https://commission.europa.eu/select-language?destination=/node/1) (EC). The system is managed by the [European Environment Agency](https://www.eea.europa.eu/en) (EEA) with the support of the [European Topic Centre on Human Health and the Environment](https://www.eionet.europa.eu/etcs/etc-he) (ETC HE).*
+
+The portal provides technical documentation together with a range of services supporting the reporting of air quality data submitted by EU Member States and other EEA member and cooperating countries.
+
+Interactive viewers and analytical tools allow users to explore reported data, compliance information and air quality statistics. Data can also be downloaded for further analysis and reuse. These services are organised into thematic categories accessible through the sections below.
+
+Additional documentation is available through the navigation menu, including technical guidance, legal references, meeting documents, reports, briefing notes and other resources related to Air Quality eReporting.
+
+<br>
+
+```{important}
+### Reporting status
+
+<span class="reporting-icon">🗓️</span> **Deadline**  
+30 September 2026
+
+<span class="reporting-icon">📤</span> **Submission**  
+Data Flows B–G — reporting year 2025 — through Reportnet 2
+
+<span id="traffic-light" class="traffic-light">
+    <span class="light"></span>
+    <span class="light"></span>
+    <span class="light"></span>
+</span>
+
+<strong>Time remaining</strong><br>
+<span id="countdown"></span>
+```
+
+<br>
 
 ```{toctree}
 :maxdepth: 1
 :caption: Getting started
 
-pages/welcome-to-the-aq-portal
 pages/aq-ereporting
-pages/reporting-year-overview
-pages/how-to-use-the-viewers
-pages/reporters-package
 ```
 
 ```{toctree}
 :maxdepth: 1
-:caption: Viewers and dashboards
+:caption: Viewers and tables
 
-viewers/index
 pages/data-flows-monitors
 pages/data-tables
 pages/air-quality-now
@@ -29,7 +61,7 @@ pages/data-analysis-and-stats
 pages/focus-on-cities
 pages/compliance-status
 pages/impact-on-health
-pages/direct-access-to-viewers-and-tablesviewers-direct-access
+pages/direct-access-to-viewers-and-tables
 ```
 
 ```{toctree}
@@ -43,11 +75,11 @@ pages/download-data
 :maxdepth: 1
 :caption: Reference
 
-pages/toolbox
-pages/aq-insights
 pages/legal-aspects
+pages/tools-and-guidance
 pages/meetings
 pages/links
+pages/aq-insights
 ```
 
 ```{toctree}
@@ -56,8 +88,3 @@ pages/links
 
 news/index
 ```
-
-## Indices
-
-- {ref}`genindex`
-- {ref}`search`
