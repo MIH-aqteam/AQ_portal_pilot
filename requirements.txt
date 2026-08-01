@@ -9,3 +9,4 @@ furo>=2024.1.29
 
 # Only needed to re-capture thumbnails of the map viewers (scripts/capture_cdp.py).
 websocket-client>=1.7
+sphinx-design
