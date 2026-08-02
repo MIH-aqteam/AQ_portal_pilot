@@ -22,25 +22,25 @@ The following resources continue to support reporting activities performed throu
 
 ### Reporting procedures
 
-- **[Submission procedure](../_static/doc-tool/AQ_IPR_submission_procedure_2024_final.pdf)**
+- <a href="../_static/doc-tool/AQ_IPR_submission_procedure_2024_final.pdf" target="_blank" rel="noopener noreferrer"><strong>Submission procedure</strong></a>
 
-- **[Guidelines for submissions after the official deadline](../_static/doc-tool/Guidelines-for-Submitting-Air-Quality-Data-Envelopes-After-the-Official-Deadline_FINAL.pdf)**
+- <a href="../_static/doc-tool/Guidelines-for-Submitting-Air-Quality-Data-Envelopes-After-the-Official-Deadline_FINAL.pdf" target="_blank" rel="noopener noreferrer"><strong>Guidelines for submissions after the official deadline</strong></a>
 
 ### Guidance documents
 
-- **[IPR Guidance – Part 1](../_static/doc-tool/IPR_guidance1.pdf)**
+- <a href="../_static/doc-tool/IPR_guidance1.pdf" target="_blank" rel="noopener noreferrer"><strong>IPR Guidance – Part 1</strong></a>
 
-- **[IPR Guidance – Part 2](../_static/doc-tool/IPR_guidance2.pdf)**
+- <a href="../_static/doc-tool/IPR_guidance2.pdf" target="_blank" rel="noopener noreferrer"><strong>IPR Guidance – Part 2</strong></a>
 
-- **[MS and EC Common Understanding](../_static/doc-tool/IPR_guidance_common_understanding_2.0.1_final.pdf)**
+- <a href="../_static/doc-tool/IPR_guidance_common_understanding_2.0.1_final.pdf" target="_blank" rel="noopener noreferrer"><strong>MS and EC Common Understanding</strong></a>
 
 ### User guides
 
-- **[User Guide – B to G data flows](../_static/doc-tool/UserGuide2_B2G_AQD_XML_v3.4.1.pdf)**
+- <a href="../_static/doc-tool/UserGuide2_B2G_AQD_XML_v3.4.1.pdf" target="_blank" rel="noopener noreferrer"><strong>User Guide – B to G data flows</strong></a>
 
-- **[User Guide – H to K data flows](../_static/doc-tool/UserGuide2_H2K_AQD_XML_v1.pdf)**
+- <a href="../_static/doc-tool/UserGuide2_H2K_AQD_XML_v1.pdf" target="_blank" rel="noopener noreferrer"><strong>User Guide – H to K data flows</strong></a>
 
-- **[Provisional Answers to Questions (datasets H–K)](../_static/doc-tool/E-Reporting-H-K-Provisional-Answers-to-Questions-v2.0.pdf)**
+- <a href="../_static/doc-tool/E-Reporting-H-K-Provisional-Answers-to-Questions-v2.0.pdf" target="_blank" rel="noopener noreferrer"><strong>Provisional Answers to Questions (datasets H–K)</strong></a>
 
 ### Applications
 
@@ -48,9 +48,9 @@ The following resources continue to support reporting activities performed throu
 
 - **[Access to CDR](access-to-cdr.md)**
 
-- **[Zone geometry checks](../_static/doc-tool/ZoneGeometryChecks.pdf)**
+- <a href="../_static/doc-tool/ZoneGeometryChecks.pdf" target="_blank" rel="noopener noreferrer"><strong>Zone geometry checks</strong></a>
 
-- **[Aggregation](../_static/doc-tool/ETC_Aggregation_v0.8.2_final.pdf)**
+- <a href="../_static/doc-tool/ETC_Aggregation_v0.8.2_final.pdf" target="_blank" rel="noopener noreferrer"><strong>Aggregation</strong></a>
 
 ---
 
