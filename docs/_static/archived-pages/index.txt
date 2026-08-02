@@ -1,4 +1,10 @@
-# Viewers and dashboards
+---
+orphan: true
+---
+
+# Reporting year overview
+
+# Welcome to the AQ Portal# Viewers and dashboards
 
 The 51 interactive viewers, dashboards and data tables that the European Air Quality Portal links to, grouped as the portal groups them. Each one opens in a new tab.
 
