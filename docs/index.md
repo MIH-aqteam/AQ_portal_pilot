@@ -16,9 +16,8 @@
 
 The portal provides technical documentation together with a range of services supporting the reporting of air quality data submitted by EU Member States and other EEA member and cooperating countries.
 
-Interactive viewers and analytical tools allow users to explore reported data, compliance information and air quality statistics. Data can also be downloaded for further analysis and reuse. These services are organised into thematic categories accessible through the sections below.
-
-Additional documentation is available through the navigation menu, including technical guidance, legal references, meeting documents, reports, briefing notes and other resources related to Air Quality eReporting.
+Interactive viewers and analytical tools allow users to explore reported data, compliance information and air quality statistics. Data can also be downloaded for further analysis and reuse.
+Additional documentation, including technical guidance, legal references, meeting documents, reports, briefing notes and other resources related to Air Quality eReporting, is also available through the navigation menu.
 
 <br>
 
