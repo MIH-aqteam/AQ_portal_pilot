@@ -1,7 +1,6 @@
 # 15 th TIPR meeting in Copenhagen
 
 *Published: 2025-03-07*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2025/03/07/15th-tipr-meeting-in-copenhagen/](https://aqportal.discomap.eea.europa.eu/2025/03/07/15th-tipr-meeting-in-copenhagen/)*
 
 The meeting venue will be the European Environment Agency, Kongens Nytorv, 1050 Copenhagen, Denmark
 

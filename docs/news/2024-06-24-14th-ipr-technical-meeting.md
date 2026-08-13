@@ -1,7 +1,6 @@
 # 14th IPR technical meeting Announcement
 
 *Published: 2024-06-24*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2024/06/24/14th-ipr-technical-meeting/](https://aqportal.discomap.eea.europa.eu/2024/06/24/14th-ipr-technical-meeting/)*
 
 The next TIPR meeting will be held in **Madrid (Spain) on 14 and 15 November 2024**.
 

@@ -1,7 +1,6 @@
 # Important: ensure you are receiving our emails
 
 *Published: 2024-11-28*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2024/11/28/important-ensure-you-are-receiving-our-emails/](https://aqportal.discomap.eea.europa.eu/2024/11/28/important-ensure-you-are-receiving-our-emails/)*
 
 Dear Colleagues,
 

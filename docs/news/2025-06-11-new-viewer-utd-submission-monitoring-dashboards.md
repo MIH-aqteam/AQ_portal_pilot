@@ -1,7 +1,6 @@
 # New viewer: UTD submission monitoring dashboards
 
 *Published: 2025-06-11*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2025/06/11/new-viewer-utd-submission-monitoring-dashboards/](https://aqportal.discomap.eea.europa.eu/2025/06/11/new-viewer-utd-submission-monitoring-dashboards/)*
 
 The new viewer “UTD Submission Monitoring Dashboards” includes 3 dashboards :
 

@@ -1,7 +1,6 @@
 # 16th TIPR: additional details
 
 *Published: 2025-07-10*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2025/07/10/16th-tipr-additional-details/](https://aqportal.discomap.eea.europa.eu/2025/07/10/16th-tipr-additional-details/)*
 
 The 16th TIPR (Technical Implementation and Provisions for Reporting) meeting will take place **in person on 13-14 November 2025**(one and a half day), hosted by the Institute of Environmental Protection – National Research Institute (IEP‑NRI) at Slowicza 32, Warsaw, Poland.
 

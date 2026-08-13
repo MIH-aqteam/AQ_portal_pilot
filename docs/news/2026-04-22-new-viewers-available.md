@@ -1,7 +1,6 @@
 # New viewers available
 
 *Published: 2026-04-22*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2026/04/22/new-viewers-available/](https://aqportal.discomap.eea.europa.eu/2026/04/22/new-viewers-available/)*
 
 Two new viewers are now available:
 

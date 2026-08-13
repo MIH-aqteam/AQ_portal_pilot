@@ -1,7 +1,6 @@
 # New Air Quality Data Reporting Guide – Reportnet 3 available
 
 *Published: 2026-07-17*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2026/07/17/new-air-quality-data-reporting-guide-available/](https://aqportal.discomap.eea.europa.eu/2026/07/17/new-air-quality-data-reporting-guide-available/)*
 
 We are pleased to inform you that EEA’s AQ data reporting guide for Reportnet 3 is now available here: <https://eeadata.github.io/AQ.Documentation.ReportingGuide/>. We recommend bookmarking this link for your convenience and ease of access in the future.
 

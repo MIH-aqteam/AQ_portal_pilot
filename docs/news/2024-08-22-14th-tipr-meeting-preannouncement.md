@@ -1,7 +1,6 @@
 # 14th TIPR meeting preannouncement
 
 *Published: 2024-08-22*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2024/08/22/14th-tipr-meeting-preannouncement/](https://aqportal.discomap.eea.europa.eu/2024/08/22/14th-tipr-meeting-preannouncement/)*
 
 The 14th IPR Technical Meeting supporting the implementation of the Air Quality e-Reporting system (IPR Decision 2011/850/EU) will take place on 14 and 15 November  2024.
 

@@ -1,7 +1,6 @@
 # 15th TIPR meeting: agenda
 
 *Published: 2025-04-11*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2025/04/11/15th-tipr-meeting-agenda/](https://aqportal.discomap.eea.europa.eu/2025/04/11/15th-tipr-meeting-agenda/)*
 
 The agenda of the 15th IPR Technical Meeting can be found [here](https://cmshare.eea.europa.eu/s/9YgEGqCjwo7sxis) as well as under the heading ‘Next TIPR meeting (15th)’ in the page on [meetings](../pages/meetings.md).
 

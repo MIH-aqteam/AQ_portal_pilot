@@ -2,8 +2,10 @@
 
 project = "European Air Quality Portal"
 author = "European Environment Agency"
-copyright = "European Environment Agency — content exported from aqportal.discomap.eea.europa.eu"
+copyright = "European Environment Agency"
 release = "1.0"
+
+templates_path = ["_templates"]
 
 extensions = [
     "myst_parser",
@@ -56,3 +58,13 @@ linkcheck_ignore = [
     r"https://tableau-public\.discomap\.eea\.europa\.eu/.*",
 ]
 linkcheck_timeout = 20
+
+
+def _mark_news_articles(app, pagename, templatename, context, doctree):
+    """Add a styling hook to individual news pages only."""
+    if pagename.startswith("news/") and pagename != "news/index":
+        context["body"] = '<div class="news-article">' + context["body"] + "</div>"
+
+
+def setup(app):
+    app.connect("html-page-context", _mark_news_articles)

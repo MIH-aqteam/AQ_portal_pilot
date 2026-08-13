@@ -1,7 +1,6 @@
 # 3rd Meeting Pilot Group – transition to ReportNet 3
 
 *Published: 2025-03-07*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2025/03/07/3rd-meeting-with-the-pilot-group-to-facilitate-the-transition-to-reportnet-3/](https://aqportal.discomap.eea.europa.eu/2025/03/07/3rd-meeting-with-the-pilot-group-to-facilitate-the-transition-to-reportnet-3/)*
 
 The meeting venue will be the European Environment Agency, Kongens Nytorv, 1050 Copenhagen, Denmark
 

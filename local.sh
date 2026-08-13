@@ -1,25 +1,28 @@
 #!/bin/bash
 
-set -e
+set -Eeuo pipefail
 
 # Go to the project directory
 cd "$(dirname "$0")"
 
-echo "====================================="
-echo "Building local AQ Portal..."
-echo "====================================="
+echo "Building local documentation..."
 
 # Remove previous local build
-rm -rf build
+rm -rf build/html
 
 # Build the documentation
-python3 -m sphinx -E -a -b html docs build/html
+python3 -m sphinx \
+    --keep-going \
+    -E \
+    -a \
+    -b html \
+    docs \
+    build/html
 
-echo ""
-echo "====================================="
 echo "Build completed successfully!"
-echo "====================================="
-echo "Open: build/html/index.html"
 
-open build/html/index.html
-# open build/html/index.html
+if command -v open >/dev/null 2>&1; then
+    open build/html/index.html
+fi
+
+echo "Done!"

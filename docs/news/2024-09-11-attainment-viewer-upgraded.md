@@ -1,7 +1,6 @@
 # Attainment viewer upgraded
 
 *Published: 2024-09-11*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2024/09/11/attainment-viewer-upgraded/](https://aqportal.discomap.eea.europa.eu/2024/09/11/attainment-viewer-upgraded/)*
 
 An upgraded version of the attainment viewer is now online under the section ‘*Compliance status*‘.
 

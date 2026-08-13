@@ -1,7 +1,6 @@
 # Viewers and tools: news
 
 *Published: 2024-04-15*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2024/04/15/viewers-and-tools-news/](https://aqportal.discomap.eea.europa.eu/2024/04/15/viewers-and-tools-news/)*
 
 1. A revised version of the ‘**[Monitor all data flows except E2a](../pages/data-flows-monitors.md)**‘ viewer is now operational. The primary enhancement lies in the submission section, where submissions are now ranked based on their submission dates.
 

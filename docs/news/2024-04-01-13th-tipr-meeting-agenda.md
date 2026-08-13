@@ -1,7 +1,6 @@
 # 13th TIPR Meeting Agenda
 
 *Published: 2024-04-01*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2024/04/01/13th-tipr-meeting-agenda/](https://aqportal.discomap.eea.europa.eu/2024/04/01/13th-tipr-meeting-agenda/)*
 
 **13th Air Quality IPR Technical Meeting-online – Agenda**
 

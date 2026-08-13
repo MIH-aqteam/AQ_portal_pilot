@@ -1,7 +1,6 @@
 # 17th TIPR meeting: official agenda
 
 *Published: 2026-03-31*  
-*Source: [https://aqportal.discomap.eea.europa.eu/2026/03/31/17th-tipr-meeting-official-agenda/](https://aqportal.discomap.eea.europa.eu/2026/03/31/17th-tipr-meeting-official-agenda/)*
 
 The 17th IPR Technical Meeting supporting the implementation of the Air Quality e-Reporting system (IPR Decision 2011/850/EU) will take place on 15 April (8.30 to 17.00h) and 16 April (9.00 to 13.00h) at European Environment Agency, Kongens Nytorv 6, 1050 København, Denmark.
 

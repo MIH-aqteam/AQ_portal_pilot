@@ -18,28 +18,14 @@
 
 <h2 class="welcome-title">Welcome to the European Air Quality Portal!</h2>
 
-The **European Air Quality (AQ) Portal** supports the Air Quality eReporting system, an initiative of the [European Commission](https://commission.europa.eu/select-language?destination=/node/1) managed by the [European Environment Agency](https://www.eea.europa.eu/en) with support from the [European Topic Centre on Human Health and the Environment](https://www.eionet.europa.eu/etcs/etc-he).
+*The **European Air Quality (AQ) Portal** is a digital platform supporting the Air Quality eReporting system, an initiative established by the [European Commission](https://commission.europa.eu/select-language?destination=/node/1) (EC). The system is managed by the [European Environment Agency](https://www.eea.europa.eu/en) (EEA) with the support of the [European Topic Centre on Human Health and the Environment](https://www.eionet.europa.eu/etcs/etc-he) (ETC HE).*
 
-It brings together technical documentation, reporting services, interactive viewers, downloadable data, legal references, guidance and meeting resources for EU Member States and other EEA member and cooperating countries.
+The portal provides technical documentation together with a range of services supporting the reporting of air quality data submitted by EU Member States and other EEA member and cooperating countries.
+
+Interactive viewers and analytical tools allow users to explore reported data, compliance information and air quality statistics. Data can also be downloaded for further analysis and reuse.
+Additional documentation, including technical guidance, legal references, meeting documents, reports, briefing notes and other resources related to Air Quality eReporting, is also available through the navigation menu.
 
 ```{raw} html
-<!-- LATEST_NEWS_START -->
-<section class="landing-latest-news" aria-labelledby="latest-news-title">
-  <div class="latest-news-heading">
-    <h2 id="latest-news-title">Latest news</h2>
-    <span class="latest-news-date">13 August 2026</span>
-  </div>
-  <h3>
-    <a href="news/2026-08-13-new-aq-portal.html">NEW AQ portal!</a>
-  </h3>
-  <p>The new version of the new AQ portal is now available.</p>
-  <div class="latest-news-links">
-    <a class="latest-news-read" href="news/2026-08-13-new-aq-portal.html">Read the full news item →</a>
-    <a href="news/index.html">All news</a>
-  </div>
-</section>
-<!-- LATEST_NEWS_END -->
-
 <div class="landing-services-layout">
   <section class="landing-reporting-card" aria-labelledby="reporting-status-title">
     <h2 id="reporting-status-title">Reporting status</h2>
@@ -103,18 +89,10 @@ It brings together technical documentation, reporting services, interactive view
     </a>
   </section>
 </div>
-
-<aside class="landing-contact" aria-label="Contact the AQ IPR helpdesk">
-  <strong>Contact us</strong>
-  <span>Questions about Air Quality eReporting? Email the AQ IPR helpdesk at</span>
-  <a href="mailto:aqipr.helpdesk@eionet.europa.eu">aqipr.helpdesk@eionet.europa.eu</a>
-  <small>If the link does not open your email application, copy the address.</small>
-</aside>
 ```
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Getting started
 
 pages/aq-ereporting
@@ -122,7 +100,6 @@ pages/aq-ereporting
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Viewers and tables
 
 pages/data-flows-monitors
@@ -137,7 +114,6 @@ pages/direct-access-to-viewers-and-tables
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Data and downloads
 
 pages/download-data
@@ -145,7 +121,6 @@ pages/download-data
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Reference
 
 pages/legal-aspects
@@ -157,7 +132,6 @@ pages/aq-insights
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: News
 
 news/index
