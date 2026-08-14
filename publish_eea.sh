@@ -2,80 +2,207 @@
 
 set -Eeuo pipefail
 
-echo "=================================================="
-echo "       AQ PORTAL - PUBLISH TO EEA GITHUB"
-echo "=================================================="
+EXPECTED_BRANCH="main"
+PILOT_REMOTE="personal"
+PILOT_REPO="MIH-aqteam/AQ_portal_pilot"
+EEA_REMOTE="eea"
+EEA_REPO="eeadata/AQ.Portal"
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+CHECK_DIR="$SCRIPT_DIR/build/eea-check"
+
+cd "$SCRIPT_DIR"
+clear 2>/dev/null || true
+
+fail() {
+    echo
+    echo "ERROR: $1"
+    echo "EEA publication cancelled."
+    exit 1
+}
+
+confirm() {
+    local answer
+    read -r -p "$1 [y/N] " answer
+    [[ "$answer" == "y" || "$answer" == "Y" ]]
+}
+
+check_remote() {
+    local remote_name="$1"
+    local expected_repo="$2"
+    local remote_url
+
+    git remote get-url "$remote_name" >/dev/null 2>&1 || \
+        fail "Git remote '$remote_name' does not exist."
+
+    remote_url="$(git remote get-url "$remote_name")"
+    echo "Remote $remote_name : $remote_url"
+
+    case "$remote_url" in
+        "https://github.com/$expected_repo"|\
+        "https://github.com/$expected_repo.git"|\
+        "git@github.com:$expected_repo.git")
+            ;;
+        *)
+            fail "Remote '$remote_name' does not point exactly to '$expected_repo'."
+            ;;
+    esac
+}
+
+echo "============================================================"
+echo "                 AQ PORTAL - EEA PUBLICATION"
+echo "============================================================"
+echo
+echo "This script publishes to EEA only the exact commit that:"
+echo "  1. is on local branch main"
+echo "  2. has already been pushed to the personal pilot"
+echo "  3. has been visually validated on the pilot website"
+echo "  4. passes a fresh strict Sphinx build"
+echo
+echo "This script does not stage files or create another commit."
+echo "Nothing has been changed yet."
+echo
+read -r -p "Press ENTER to begin verification, or Ctrl-C to abort."
+
+echo
+echo "------------------------------------------------------------"
+echo "1. VERIFYING PROJECT, BRANCH AND REMOTES"
+echo "------------------------------------------------------------"
 echo
 
-echo "Building local documentation..."
+git rev-parse --is-inside-work-tree >/dev/null 2>&1 || \
+    fail "This directory is not a Git repository."
+
+[[ -f "$SCRIPT_DIR/docs/conf.py" ]] || \
+    fail "docs/conf.py was not found. Run this script from the AQ Portal project copy."
+
+CURRENT_BRANCH="$(git branch --show-current)"
+echo "Project        : $SCRIPT_DIR"
+echo "Current branch : $CURRENT_BRANCH"
+
+[[ "$CURRENT_BRANCH" == "$EXPECTED_BRANCH" ]] || \
+    fail "EEA publication must be performed from branch '$EXPECTED_BRANCH', not '$CURRENT_BRANCH'."
+
+check_remote "$PILOT_REMOTE" "$PILOT_REPO"
+check_remote "$EEA_REMOTE" "$EEA_REPO"
+
+if git diff --name-only --diff-filter=U | grep -q .; then
+    fail "Unresolved Git merge conflicts were detected."
+fi
+
+if [[ -n "$(git status --porcelain)" ]]; then
+    echo
+    echo "Current Git status:"
+    git status --short
+    fail "The working tree is not clean. Publish and validate the pilot first."
+fi
+
+echo
+echo "Project, branch and remote verification succeeded."
 echo
 
-rm -rf build/html
+if ! confirm "Have you visually validated the current PERSONAL PILOT website?"; then
+    echo
+    echo "EEA publication cancelled. Validate the pilot website first."
+    exit 0
+fi
+
+echo
+echo "------------------------------------------------------------"
+echo "2. VERIFYING REMOTE COMMITS"
+echo "------------------------------------------------------------"
+echo
+echo "Refreshing personal pilot and EEA branch information..."
+
+git fetch --quiet "$PILOT_REMOTE" \
+    "+refs/heads/$EXPECTED_BRANCH:refs/remotes/$PILOT_REMOTE/$EXPECTED_BRANCH"
+git fetch --quiet "$EEA_REMOTE" \
+    "+refs/heads/$EXPECTED_BRANCH:refs/remotes/$EEA_REMOTE/$EXPECTED_BRANCH"
+
+HEAD_COMMIT="$(git rev-parse HEAD)"
+PILOT_COMMIT="$(git rev-parse "$PILOT_REMOTE/$EXPECTED_BRANCH")"
+EEA_COMMIT="$(git rev-parse "$EEA_REMOTE/$EXPECTED_BRANCH")"
+
+echo "Local main : $(git rev-parse --short "$HEAD_COMMIT")"
+echo "Pilot main : $(git rev-parse --short "$PILOT_COMMIT")"
+echo "EEA main   : $(git rev-parse --short "$EEA_COMMIT")"
+
+[[ "$HEAD_COMMIT" == "$PILOT_COMMIT" ]] || \
+    fail "Local main is not identical to personal pilot main. Run ./publish.sh first."
+
+if [[ "$HEAD_COMMIT" == "$EEA_COMMIT" ]]; then
+    echo
+    echo "EEA already contains this exact commit. There is nothing to publish."
+    exit 0
+fi
+
+git merge-base --is-ancestor "$EEA_REMOTE/$EXPECTED_BRANCH" HEAD || \
+    fail "EEA main contains different commits. A safe fast-forward is not possible."
+
+echo
+echo "Commits that will be added to EEA:"
+echo
+git --no-pager log --oneline "$EEA_REMOTE/$EXPECTED_BRANCH..HEAD"
+
+echo
+echo "Remote commit verification succeeded."
+echo
+read -r -p "Press ENTER to run the final strict Sphinx check, or Ctrl-C to abort."
+
+echo
+echo "------------------------------------------------------------"
+echo "3. FINAL STRICT SPHINX CHECK"
+echo "------------------------------------------------------------"
+echo
+
+rm -rf -- "$CHECK_DIR"
 
 python3 -m sphinx \
+    -W \
     --keep-going \
     -E \
     -a \
     -b html \
     docs \
-    build/html
+    "$CHECK_DIR"
 
 echo
-echo "✓ Local build completed successfully."
-echo
+echo "Strict Sphinx build completed with no warnings."
 
-CURRENT_BRANCH=$(git branch --show-current)
-
-if [ "$CURRENT_BRANCH" != "main" ]; then
-    echo "Publication cancelled: current branch is '$CURRENT_BRANCH'."
-    echo "Merge your changes into main before publishing."
-    exit 1
-fi
-
-if ! git remote get-url eea >/dev/null 2>&1; then
-    echo "Publication cancelled: remote 'eea' is not configured."
-    exit 1
-fi
-
-git status --short
-
-echo
-echo "--------------------------------------------------"
-read -r -p "Commit message: " COMMITMSG
-
-if [ -z "$COMMITMSG" ]; then
+if [[ -n "$(git status --porcelain)" ]]; then
     echo
-    echo "❌ No commit message entered. Publication cancelled."
-    exit 1
+    git status --short
+    fail "The working tree changed during validation."
 fi
 
 echo
-echo "Staging files..."
-git add -A
-
+echo "------------------------------------------------------------"
+echo "4. FINAL EEA PUBLICATION CHECK"
+echo "------------------------------------------------------------"
 echo
-echo "Files staged for publication:"
-git diff --cached --stat
+echo "Repository : $EEA_REPO"
+echo "Remote     : $EEA_REMOTE"
+echo "Branch     : $EXPECTED_BRANCH"
+echo "Commit     : $(git log -1 --oneline)"
+echo
+echo "Command that will run:"
+echo "  git push $EEA_REMOTE $EXPECTED_BRANCH:$EXPECTED_BRANCH"
+echo
 
-if git diff --cached --quiet; then
+if ! confirm "Publish this validated pilot commit to the EEA repository now?"; then
     echo
-    echo "Nothing to commit."
-else
-    echo
-    echo "Creating commit..."
-    git commit -m "$COMMITMSG"
+    echo "EEA publication stopped before the push. Nothing was changed."
+    exit 0
 fi
 
-echo
-echo "Pushing to EEA GitHub..."
-git push eea main
+git push "$EEA_REMOTE" "$EXPECTED_BRANCH:$EXPECTED_BRANCH"
 
 echo
-echo "=================================================="
-echo "✓ Publication completed successfully."
+echo "============================================================"
+echo "EEA PUBLICATION COMPLETED SUCCESSFULLY"
+echo "============================================================"
 echo
-echo "Repository : https://github.com/eeadata/AQ.Portal"
-echo "Website    : to be confirmed after GitHub Pages deployment"
+echo "Repository: https://github.com/$EEA_REPO"
+echo "Website   : https://eeadata.github.io/AQ.Portal/"
 echo
-echo "GitHub Actions is now deploying the updated website."
-echo "=================================================="
+echo "GitHub Actions will now deploy the updated EEA website."
+echo "============================================================"

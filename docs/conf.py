@@ -35,6 +35,7 @@ html_theme = "furo"
 html_title = "European Air Quality Portal"
 html_static_path = ["_static"]
 html_logo = "_static/EEA-logo.png"
+html_favicon = "_static/favicon.png"
 
 # Every link that leaves these docs opens in a new tab, so the reader never
 # loses their place — this is how the embedded viewers behave on the portal.
