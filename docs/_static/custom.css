@@ -602,3 +602,149 @@ body[data-theme="dark"] .reporting-countdown {
 .traffic-all-red .light {
     background: #c62828 !important;
 }
+
+/* =========================================================
+   AURA FAMILY NAVIGATION + REPORTING-GUIDE GREY SIDEBAR
+   ---------------------------------------------------------
+   Shell-only harmonisation with the AURA Reporting Guide.
+   This section deliberately targets Furo's left sidebar only.
+   ========================================================= */
+
+/* Reporting Guide grey scale mapped onto Furo's sidebar. */
+.sidebar-drawer {
+  --color-sidebar-background: #F4F4F4;
+  --color-sidebar-background-border: #D8D8D8;
+  --color-sidebar-brand-text: #202428;
+  --color-sidebar-caption-text: #68717A;
+  --color-sidebar-link-text: #68717A;
+  --color-sidebar-link-text--top-level: #68717A;
+  --color-sidebar-item-background: #F4F4F4;
+  --color-sidebar-item-background--current: #E3E3E3;
+  --color-sidebar-item-background--hover: #E8E8E8;
+  --color-sidebar-item-expander-background: transparent;
+  --color-sidebar-item-expander-background--hover: #E8E8E8;
+  --color-sidebar-search-text: #33383D;
+  --color-sidebar-search-background: #FFFFFF;
+  --color-sidebar-search-background--focus: #FFFFFF;
+  --color-sidebar-search-border: #C8C8C8;
+
+  background: #F4F4F4;
+  border-right-color: #D8D8D8;
+}
+
+/* Keep navigation greys identical in light, dark and auto modes. */
+body[data-theme="dark"] .sidebar-drawer,
+body:not([data-theme="light"]) .sidebar-drawer {
+  --color-sidebar-background: #F4F4F4;
+  --color-sidebar-background-border: #D8D8D8;
+  --color-sidebar-brand-text: #202428;
+  --color-sidebar-caption-text: #68717A;
+  --color-sidebar-link-text: #68717A;
+  --color-sidebar-link-text--top-level: #68717A;
+  --color-sidebar-item-background: #F4F4F4;
+  --color-sidebar-item-background--current: #E3E3E3;
+  --color-sidebar-item-background--hover: #E8E8E8;
+  --color-sidebar-item-expander-background: transparent;
+  --color-sidebar-item-expander-background--hover: #E8E8E8;
+  --color-sidebar-search-text: #33383D;
+  --color-sidebar-search-background: #FFFFFF;
+  --color-sidebar-search-background--focus: #FFFFFF;
+  --color-sidebar-search-border: #C8C8C8;
+}
+
+/* Current navigation item: same visual cue as the Reporting Guide. */
+.sidebar-tree .current-page > .reference,
+.sidebar-tree .current > .reference {
+  color: #202428 !important;
+  font-weight: 600;
+}
+
+.sidebar-tree .current-page > .reference {
+  border-left: 4px solid #666D73;
+}
+
+/* Furo search box, matched to the Reporting Guide. */
+.sidebar-search {
+  border: 1px solid #C8C8C8;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+/* AURA family branding. */
+.aura-branding-furo {
+  margin: 0 0 12px;
+  background: #4F555A;
+  text-align: center;
+}
+
+.aura-brand-row {
+  padding: 12px 10px 8px;
+  white-space: nowrap;
+}
+
+.aura-eea-link {
+  display: inline-block;
+  vertical-align: middle;
+  width: 115px;
+  margin: 0 4px 0 0;
+  padding: 0;
+}
+
+.aura-eea-logo {
+  display: block !important;
+  width: 100px !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  object-fit: contain;
+}
+
+.aura-name {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 5px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.04em;
+}
+
+.aura-sites {
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.aura-sites a,
+.aura-sites .aura-current {
+  display: block;
+  min-height: 31px;
+  padding: 6px 18px 6px 10px;
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+.aura-sites a:hover,
+.aura-sites a:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+  color: #FFFFFF !important;
+}
+
+.aura-sites .aura-current {
+  background: #FFFFFF;
+  color: #202428 !important;
+  font-weight: 600;
+}
+
+/* Remove the old Furo project-title branding spacing because the AURA
+   family block now occupies that role. */
+.sidebar-sticky > .aura-branding-furo:first-child {
+  margin-top: 0;
+}
