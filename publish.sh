@@ -109,14 +109,7 @@ echo "Removing the previous local build..."
 rm -rf -- "$BUILD_DIR"
 
 echo "Building the Portal..."
-python3 -m sphinx \
-    -W \
-    --keep-going \
-    -E \
-    -a \
-    -b html \
-    docs \
-    "$BUILD_DIR"
+/usr/bin/python3 -m sphinx -W --keep-going -E -a -b html docs "$BUILD_DIR"
 
 echo
 echo "Build completed successfully."
