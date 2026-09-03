@@ -5,6 +5,7 @@ News items published on the portal, most recent first.
 ```{toctree}
 :maxdepth: 1
 
+2026-09-03-correction-modification-register-now-available
 2026-08-13-new-aq-portal
 2026-07-17-new-air-quality-data-reporting-guide-available
 2026-07-06-webinar-on-reporting-aq-plans-presentations-are-now-available
