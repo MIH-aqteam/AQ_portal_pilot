@@ -156,7 +156,7 @@ echo
 
 rm -rf -- "$CHECK_DIR"
 
-python3 -m sphinx \
+/usr/bin/python3 -m sphinx \
     -W \
     --keep-going \
     -E \
