@@ -27,14 +27,14 @@ It brings together technical documentation, reporting services, interactive view
 <section class="landing-latest-news" aria-labelledby="latest-news-title">
   <div class="latest-news-heading">
     <h2 id="latest-news-title">Latest news</h2>
-    <span class="latest-news-date">3 September 2026</span>
+    <span class="latest-news-date">6 October 2026</span>
   </div>
   <h3>
-    <a href="news/2026-09-03-correction-modification-register-now-available.html">Correction &amp; Modification Register now available</a>
+    <a href="news/2026-10-06-18th-ipr-technical-meeting-announcement.html">18th IPR Technical Meeting: announcement</a>
   </h3>
-  <p>A new Correction &amp; Modification Register is now available to provide a transparent overview of identified issues and requested changes to the Air Quality reporting system and documentation.</p>
+  <p>The 18th IPR Technical Meeting will take place on 4 November (8.30 to 17.00h) and 5 November (9.00 to 13.00h) at European Environment Agencyin Copenhagen.</p>
   <div class="latest-news-links">
-    <a class="latest-news-read" href="news/2026-09-03-correction-modification-register-now-available.html">Read the full news item →</a>
+    <a class="latest-news-read" href="news/2026-10-06-18th-ipr-technical-meeting-announcement.html">Read the full news item →</a>
     <a href="news/index.html">All news</a>
   </div>
 </section>

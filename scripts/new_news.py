@@ -18,6 +18,13 @@ import textwrap
 from typing import Optional, Tuple
 import unicodedata
 
+# Enable normal command-line editing (arrow keys, cursor movement, etc.)
+# for interactive input() prompts on macOS/Linux.
+try:
+    import readline
+except ImportError:
+    pass
+
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 LANDING_PAGE = PROJECT_ROOT / "docs" / "index.md"
