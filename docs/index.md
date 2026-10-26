@@ -27,14 +27,14 @@ It brings together technical documentation, reporting services, interactive view
 <section class="landing-latest-news" aria-labelledby="latest-news-title">
   <div class="latest-news-heading">
     <h2 id="latest-news-title">Latest news</h2>
-    <span class="latest-news-date">6 October 2026</span>
+    <span class="latest-news-date">26 October 2026</span>
   </div>
   <h3>
-    <a href="news/2026-10-06-18th-ipr-technical-meeting-announcement.html">18th IPR Technical Meeting: announcement</a>
+    <a href="news/2026-10-26-18th-ipr-technical-meeting-agenda.html">18th IPR Technical Meeting: agenda</a>
   </h3>
-  <p>The 18th IPR Technical Meeting will take place on 4 November (8.30 to 17.00h) and 5 November (9.00 to 13.00h) at European Environment Agencyin Copenhagen.</p>
+  <p>The agenda of the 18th IPR meeting is now available.</p>
   <div class="latest-news-links">
-    <a class="latest-news-read" href="news/2026-10-06-18th-ipr-technical-meeting-announcement.html">Read the full news item →</a>
+    <a class="latest-news-read" href="news/2026-10-26-18th-ipr-technical-meeting-agenda.html">Read the full news item →</a>
     <a href="news/index.html">All news</a>
   </div>
 </section>

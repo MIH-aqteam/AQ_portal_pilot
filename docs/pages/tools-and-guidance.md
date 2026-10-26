@@ -50,7 +50,9 @@ The following resources continue to support reporting activities performed throu
 
 - <a href="../_static/doc-tool/ZoneGeometryChecks.pdf" target="_blank" rel="noopener noreferrer"><strong>Zone geometry checks</strong></a>
 
-- <a href="../_static/doc-tool/ETC_Aggregation_v0.8.2_final.pdf" target="_blank" rel="noopener noreferrer"><strong>Aggregation</strong></a>
+- <a href="https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQDQ7U61DpPpSJRzCb_Uwj3zAbCDcE9KVVriBK4k4zs28M0?e=dCmwI2"
+   target="_blank"
+   rel="noopener noreferrer"><strong>Aggregation</strong></a>
 
 ---
 
