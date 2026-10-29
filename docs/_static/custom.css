@@ -825,3 +825,37 @@ body:not([data-theme="light"]) .sidebar-drawer {
     line-height: 1.2 !important;
     margin-bottom: 0.5rem !important;
 }
+/* Portal home navigation: active state matches the other AURA guides */
+.aura-sites a.aura-portal-home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  background: transparent;
+  color: #fff !important;
+  font-weight: 400;
+}
+.aura-sites a.aura-portal-home svg { display: inline-block; flex-shrink: 0; }
+.aura-sites a.aura-portal-home:hover,
+.aura-sites a.aura-portal-home:focus-visible {
+  background: rgba(255,255,255,0.14);
+  color: #fff !important;
+}
+.aura-sites a.aura-portal-home.aura-current {
+  background: #fff;
+  color: #202428 !important;
+  font-weight: 600;
+}
+
+/* Home link: white tab on every Portal page, always clickable */
+.aura-sites a.aura-portal-home,
+.aura-sites a.aura-portal-home:hover,
+.aura-sites a.aura-portal-home:focus-visible {
+  background: #ffffff !important;
+  color: #202428 !important;
+  font-weight: 600;
+}
+.aura-sites a.aura-portal-home:hover,
+.aura-sites a.aura-portal-home:focus-visible {
+  background: #edf0f2 !important;
+}

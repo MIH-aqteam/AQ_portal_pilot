@@ -10,7 +10,8 @@ This page provides access to agendas, meeting summaries, minutes and presentatio
 The **18th IPR Technical Meeting** supporting the implementation of the Air Quality e-Reporting system (IPR Decision 2011/850/EU) that will take place on **4 November (8.30 to 17.00h) and 5 November (9.00 to 13.00h)** at European Environment Agency, Kongens Nytorv 6, 1050 København, Denmark.
 
 This meeting will focus on the implementation of the Ambient Air Quality Directive (EU) 2024/2881, the associated reporting requirements, and the transition to Reportnet 3, among other things.
-The agenda, also distributed by email, can be found here: https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBomWo9FzNkTZZGjh3bleJEAfXdbLWh2QdGRD1gjhV6I-E?e=gfYrJT
+
+The **agenda**, also distributed by email, can be found here: https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBomWo9FzNkTZZGjh3bleJEAfXdbLWh2QdGRD1gjhV6I-E?e=gfYrJT
 
 Registered participants will receive further information from the European Environment Agency.
 ```
