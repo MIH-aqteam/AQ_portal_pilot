@@ -7,11 +7,13 @@
   </div>
 
   <nav class="aura-sites" aria-label="AURA websites">
-    <span class="aura-current" aria-current="page">Portal</span>
+    <a class="aura-portal-home aura-current" href="{{ pathto('index') }}" aria-label="AQ Portal home">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 21v-8h6v8"/></svg>
+      Portal
+    </a>
     <a href="https://eeadata.github.io/AQ.Documentation.ReportingGuide/">Reporting guide</a>
     <a href="https://eeadata.github.io/AQ.Documentation.ReferenceGuidePilot/">Reference guide</a>
-    <!-- Temporarily disabled. Confirm the official EEA GitHub Pages URL before reactivation. -->
-    <span aria-disabled="true" title="Temporarily unavailable" style="display: block; min-height: 31px; padding: 6px 18px 6px 10px; color: #C4C7C9; cursor: default;">Data aggregation guide</span>
+    <a href="https://eeadata.github.io/AQ.Documentation.AggregationGuide/">Data aggregation guide</a>
   </nav>
 
   <div class="aura-resources">

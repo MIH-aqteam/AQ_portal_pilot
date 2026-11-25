@@ -5,6 +5,7 @@ News items published on the portal, most recent first.
 ```{toctree}
 :maxdepth: 1
 
+2026-11-25-18th-tipr-meeting-minutes-and-presentations-available
 2026-10-29-aggregation-guide-update-available
 2026-10-26-18th-ipr-technical-meeting-agenda
 2026-10-06-18th-ipr-technical-meeting-announcement

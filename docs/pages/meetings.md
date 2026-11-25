@@ -7,13 +7,7 @@ This page provides access to agendas, meeting summaries, minutes and presentatio
 ```{important}
 ## Next meeting
 
-The **18th IPR Technical Meeting** supporting the implementation of the Air Quality e-Reporting system (IPR Decision 2011/850/EU) that will take place on **4 November (8.30 to 17.00h) and 5 November (9.00 to 13.00h)** at European Environment Agency, Kongens Nytorv 6, 1050 København, Denmark.
-
-This meeting will focus on the implementation of the Ambient Air Quality Directive (EU) 2024/2881, the associated reporting requirements, and the transition to Reportnet 3, among other things.
-
-The **agenda**, also distributed by email, can be found here: https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBomWo9FzNkTZZGjh3bleJEAfXdbLWh2QdGRD1gjhV6I-E?e=gfYrJT
-
-Registered participants will receive further information from the European Environment Agency.
+Information on the next meeting will be provided in due course.
 ```
 
 ```{tip}
@@ -24,8 +18,49 @@ Expand the meeting corresponding to the year in which it was held. All available
 
 ## 2026
 
-````{dropdown} Webinar – Reporting Air Quality Plans using the new Reportnet 3 reporting schema
+````{dropdown} 18th IPR Technical Meeting
 :open:
+
+**📅 Date**  
+4–5 November 2026
+
+**📍 Venue**  
+European Environment Agency  
+Kongens Nytorv 6  
+1050 Copenhagen, Denmark
+
+The 18th IPR Technical Meeting focused on the implementation of the Ambient Air Quality Directive (EU) 2024/2881, the associated reporting requirements and the transition to Reportnet 3.
+
+### 📝 Agenda
+
+- [Final agenda](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBomWo9FzNkTZZGjh3bleJEAfXdbLWh2QdGRD1gjhV6I-E?e=gfYrJT)
+
+### 📄 Minutes
+
+- [Minutes of meeting](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQAKDzEsE6oDQYlSAcap3rxUAQOgupancCF7C-n3IFFdikQ?e=GF2zb8)
+
+### 🎤 Presentations
+
+- [Opening-closing slides](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBcxrg-QGnQSoQNMsJQ6dfMAZXHFPqsAD2KoB_jAED0Jfk?e=ffOaZu)
+- [Update on EU Clean Air policy](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQAZCvF8QeRrS4PEj52qhCw3AcSOEaTnJwQkOT0BfC4jtyQ?e=fv40eh)
+- [R3 - Progress on Reportnet 3 reporting system](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQD5XaDeDQcaRaUqUwRl-rDHAQp7Kvvf5P98xXnT_qDA_IQ?e=ZkaF72)
+- [R3 - Update on vocabulary/codelists](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBZuHINxTnnTaIUgmt5mb1vASh50kIQPN5iQF3QZl9HGx0?e=RaKFGa)
+- [R3 - Reporting Identifiers - Naming conventions](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQB_0UyWG8axQqsA5pxRn_YcAX20uYt5F8gh091IrQylC4M?e=Gf4HrY)
+- [R3 - Reporting of AEI, SRs, extents of exceedance](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBHRqz57-XEToR4JU6kQHtiAQMaKzpF1m6VvN5LU9s5Rps?e=7Tnm2D)
+- [R3 - Data aggregation, data coverage and DQO](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQDs9sU9rR8xTJ9_vOMAjYOBAZznW7TDuAvDTzKOsNNbu70?e=wbLL13)
+- [R3 - Hotspot and SamplingPointCategory](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQAs3qc-n6ChQao0GAFjg0X9AZAkYg0pWBr0Juz2Te7a7hQ?e=0YvRXd)
+- [R3 - Changes in SPO and SPL tables](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQD0c-CdFK5JQKgG93J9B02XAR76AmwXycjrHBYZAGtfufw?e=QdH5Q3)
+- [R3 - How to Report Preliminary 2027 Air Quality Data in Reportnet 3](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQArpHspxK8gSpKbXHVCHc0XAYhDMzKc9dfbKYov-NAS8zw?e=gh3p01)
+- [RAVEN platform](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBNQ6oLJbY5R4XJUdUAulIDAbK_HfPb3LmwzJxD_7Tpz7s?e=xoh5Sm)
+- [Future UTD data reporting](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQASkJTUFTdbTJD_TulgiHc9Afg_Csbil2snCE9ZGwRMFy4?e=9QZ7QQ)
+- [September 2026 B-G dataflow submission](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQDJiNuMgDkwQaL-2DzkQZgGAQptCFleVj-xpHnASbKhQIg?e=T6LXkd)
+- [E1a Status Report](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQAqlpnzHKE5QY5GYoBmVtKJATO2_dNgCY2Q_OMpWlZ-k2k?e=yvil2O)
+- [UTD Notification System](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQBVwPoY-EPrS7jyNTAJfNUUAeMhl9K9joHwocRkusGoTQg?e=7Dd2HR)
+- [Up-To-Date data (E2a) - status](https://eea1.sharepoint.com/:b:/t/AirQualityTeam-Public/IQDJavAjZfJ0RaL16by9dM-NAcxD6VD63MlEMnYJ_Izt5gE?e=b2KtY2)
+
+````
+
+````{dropdown} Webinar – Reporting Air Quality Plans using the new Reportnet 3 reporting schema
 
 **📅 Date**  
 23 June 2026
