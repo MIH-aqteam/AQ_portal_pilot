@@ -1,4 +1,4 @@
-# European Air Quality Portal
+# **European Air Quality Portal**
 
 <p class="portal-subtitle">Supporting European air quality reporting, assessment and collaboration</p>
 
@@ -6,6 +6,15 @@
 :alt: European Air Quality Portal
 :width: 100%
 :class: portal-banner-image
+```
+
+```{raw} html
+<aside aria-labelledby="service-alert-title" style="background:#fff1f0;color:#492323;border:1px solid #e6b8b5;border-left:6px solid #b42318;border-radius:8px;padding:18px 22px;margin:24px 0;">
+  <h2 id="service-alert-title" style="color:#a51d16;font-size:1.3rem;margin:0 0 12px;">⚠️ Important notice – Temporary service disruption</h2>
+  <p>The EEA's technical infrastructure has been the target of a cyberattack. We are continuing to assess the scope of the attack and have already implemented a series of precautionary measures to minimise its impact.</p>
+  <p>As part of these precautions, we have taken some systems offline, including Reportnet 3, Eionet portals and Discodata products. <strong>As a result, many of the viewers and tables on the AQ Portal are currently unavailable.</strong></p>
+  <p style="margin-bottom:0;">Our Digital colleagues are working with their counterparts, including CERT-EU, the Cybersecurity Emergency Response Team for the EU institutions, bodies and agencies, and with support from Danish cybersecurity services (TDC), to restore services safely.</p>
+</aside>
 ```
 
 <nav class="landing-section-nav" aria-label="Portal sections">
@@ -18,28 +27,14 @@
 
 <h2 class="welcome-title">Welcome to the European Air Quality Portal!</h2>
 
-The **European Air Quality (AQ) Portal** supports the Air Quality eReporting system, an initiative of the [European Commission](https://commission.europa.eu/select-language?destination=/node/1) managed by the [European Environment Agency](https://www.eea.europa.eu/en) with support from the [European Topic Centre on Human Health and the Environment](https://www.eionet.europa.eu/etcs/etc-he).
+*The **European Air Quality (AQ) Portal** is a digital platform supporting the Air Quality eReporting system, an initiative established by the [European Commission](https://commission.europa.eu/select-language?destination=/node/1) (EC). The system is managed by the [European Environment Agency](https://www.eea.europa.eu/en) (EEA) with the support of the [European Topic Centre on Human Health and the Environment](https://www.eionet.europa.eu/etcs/etc-he) (ETC HE).*
 
-It brings together technical documentation, reporting services, interactive viewers, downloadable data, legal references, guidance and meeting resources for EU Member States and other EEA member and cooperating countries.
+The portal provides technical documentation together with a range of services supporting the reporting of air quality data submitted by EU Member States and other EEA member and cooperating countries.
+
+Interactive viewers and analytical tools allow users to explore reported data, compliance information and air quality statistics. Data can also be downloaded for further analysis and reuse.
+Additional documentation, including technical guidance, legal references, meeting documents, reports, briefing notes and other resources related to Air Quality eReporting, is also available through the navigation menu.
 
 ```{raw} html
-<!-- LATEST_NEWS_START -->
-<section class="landing-latest-news" aria-labelledby="latest-news-title">
-  <div class="latest-news-heading">
-    <h2 id="latest-news-title">Latest news</h2>
-    <span class="latest-news-date">29 October 2026</span>
-  </div>
-  <h3>
-    <a href="news/2026-10-29-aggregation-guide-update-available.html">Aggregation Guide: update available</a>
-  </h3>
-  <p>The updated Aggregation Guide is now available.</p>
-  <div class="latest-news-links">
-    <a class="latest-news-read" href="news/2026-10-29-aggregation-guide-update-available.html">Read the full news item →</a>
-    <a href="news/index.html">All news</a>
-  </div>
-</section>
-<!-- LATEST_NEWS_END -->
-
 <div class="landing-services-layout">
   <section class="landing-reporting-card" aria-labelledby="reporting-status-title">
     <h2 id="reporting-status-title">Reporting status</h2>
@@ -103,18 +98,10 @@ It brings together technical documentation, reporting services, interactive view
     </a>
   </section>
 </div>
-
-<aside class="landing-contact" aria-label="Contact the AQ IPR helpdesk">
-  <strong>Contact us</strong>
-  <span>Questions about Air Quality eReporting? Email the AQ IPR helpdesk at</span>
-  <a href="mailto:aqipr.helpdesk@eionet.europa.eu">aqipr.helpdesk@eionet.europa.eu</a>
-  <small>If the link does not open your email application, copy the address.</small>
-</aside>
 ```
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Getting started
 
 pages/aq-ereporting
@@ -122,7 +109,6 @@ pages/aq-ereporting
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Viewers and tables
 
 pages/data-flows-monitors
@@ -137,7 +123,6 @@ pages/direct-access-to-viewers-and-tables
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Data and downloads
 
 pages/download-data
@@ -145,7 +130,6 @@ pages/download-data
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: Reference
 
 pages/legal-aspects
@@ -157,7 +141,6 @@ pages/aq-insights
 
 ```{toctree}
 :maxdepth: 1
-:hidden:
 :caption: News
 
 news/index
