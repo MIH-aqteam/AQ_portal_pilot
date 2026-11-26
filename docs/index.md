@@ -12,9 +12,13 @@
 ```{raw} html
 <aside aria-labelledby="service-alert-title" style="background:#fff1f0;color:#492323;border:1px solid #e6b8b5;border-left:6px solid #b42318;border-radius:8px;padding:18px 22px;margin:24px 0;">
   <h2 id="service-alert-title" style="color:#a51d16;font-size:1.3rem;margin:0 0 12px;">⚠️ Important notice – Temporary service disruption</h2>
-  <p>The EEA's technical infrastructure has been the target of a cyberattack. We are continuing to assess the scope of the attack and have already implemented a series of precautionary measures to minimise its impact.</p>
-  <p>As part of these precautions, we have taken some systems offline, including Reportnet 3, Eionet portals and Discodata products. <strong>As a result, many of the viewers and tables on the AQ Portal are currently unavailable.</strong></p>
-  <p style="margin-bottom:0;">Our Digital colleagues are working with their counterparts, including CERT-EU, the Cybersecurity Emergency Response Team for the EU institutions, bodies and agencies, and with support from Danish cybersecurity services (TDC), to restore services safely.</p>
+  <p>Several EEA information systems are currently experiencing service  disruptions. As a result, most of the viewers and tables on the AQ Portal are temporarily unavailable. The Reporting Guide, Reference Guide and Aggregation Guide, however, remain operational.</p>
+
+<p>Our priority is to restore the affected services as soon as possible. 
+We apologise for the inconvenience and thank you for your understanding.</p>
+
+<p>Please note that the main EEA website <a href="https://www.eea.europa.eu/">European Environment Agency (EEA)</a> remains operational.</p>
+  
 </aside>
 ```
 
